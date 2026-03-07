@@ -518,6 +518,18 @@ body {
     padding-left: 24px;
   }
 
+  .landing-inner {
+    flex-direction: column-reverse;
+  }
+
+  .landing-image {
+    margin: 0;
+  }
+
+  .landing-image img {
+    width: 12rem;
+  }
+
   .project-inner {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
