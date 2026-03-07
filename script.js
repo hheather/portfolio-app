@@ -103,4 +103,16 @@
 
   sections.forEach(s => indexObserver.observe(s));
 
+  // ----------------------------------------------------------
+  // HASH NAVIGATION: jump to section on page load
+  // ----------------------------------------------------------
+  const hash = window.location.hash;
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target) {
+      const index = sections.indexOf(target);
+      if (index !== -1) scrollToSection(index);
+    }
+  }
+
 })();
