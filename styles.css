@@ -12,7 +12,7 @@
   --bg:         #dedede;
   --surface:    #ffffff9f;
   --border:     rgb(255, 255, 0);
-  --text:       rgb(255, 255, 0);
+  --text:       rgb(255, 0, 255);
   --muted:      #454545;
   --accent:     #000fff;   /* lime-green accent — change to suit your taste */
   --font-sans:  'Inter', 'Helvetica Neue', Arial, sans-serif;
@@ -452,7 +452,7 @@ body {
 .process-content {
   width: 100%;
   padding: 32px;
-  background: var(--surface);
+  /* background: var(--surface); */
   border: 1px dashed var(--border);
   border-radius: var(--radius);
   overflow-y: auto;
