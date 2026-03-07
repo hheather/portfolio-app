@@ -432,12 +432,6 @@ body {
   aspect-ratio: 1;
 }
 
-.video-placeholder {
-  flex-shrink: 0;
-  height: 55%;
-  aspect-ratio: 16 / 9;
-}
-
 /* When you replace placeholder with a real iframe */
 .media-placeholder iframe,
 .media-placeholder img {
