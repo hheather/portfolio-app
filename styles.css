@@ -7,12 +7,13 @@
   padding: 0;
 }
 
+/* eeff00 */
 :root {
-  --bg:         #fff;
+  --bg:         #dedede;
   --surface:    #ffffff9f;
-  --border:     #2a2a2a;
-  --text:       #000;
-  --muted:      #7a7870;
+  --border:     rgb(255, 255, 0);
+  --text:       rgb(255, 255, 0);
+  --muted:      #454545;
   --accent:     #000fff;   /* lime-green accent — change to suit your taste */
   --font-sans:  'Inter', 'Helvetica Neue', Arial, sans-serif;
   --font-mono:  'JetBrains Mono', 'Fira Code', monospace;
@@ -27,7 +28,7 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-mono);
   line-height: 1.6;
   overflow: hidden; /* scroll container handles scrolling */
 }
@@ -138,7 +139,7 @@ body {
 }
 
 .landing-name {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.05;
@@ -318,7 +319,7 @@ body {
   font-family: var(--font-mono);
   font-size: 0.78rem;
   color: var(--text);
-  background: var(--surface);
+  /* background: var(--surface); */
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 4px 12px;
@@ -326,7 +327,7 @@ body {
 
 /* Tab bar */
 .tab-bar {
-  visibility: hidden;
+  /* visibility: hidden; */
   display: flex;
   gap: 4px;
   margin-top: 8px;
