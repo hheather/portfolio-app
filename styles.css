@@ -228,13 +228,14 @@ body {
   width: 100%;
   max-width: 1300px;
   height: 100%;
-  align-items: center;
+  align-items: stretch;
 }
 
 /* ---- Left: Info column ---- */
 .project-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
   padding-right: 20px;
 }
@@ -329,6 +330,21 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.project-media::-webkit-scrollbar {
+  height: 4px;
+}
+.project-media::-webkit-scrollbar-track {
+  background: transparent;
+}
+.project-media::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
 }
 
 /* Tab panels */
@@ -336,20 +352,21 @@ body {
   display: none;
   width: 100%;
   height: 100%;
-  align-items: center;
 }
 
 .tab-panel.active {
   display: flex;
+  align-items: center;
 }
 
-/* Media grid */
+/* Media grid — horizontal scrolling strip */
 .media-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  display: flex;
+  flex-direction: row;
   gap: 12px;
-  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: 16px 0;
 }
 
 .media-placeholder {
@@ -372,12 +389,14 @@ body {
 }
 
 .img-placeholder {
-  aspect-ratio: 4 / 3;
+  flex-shrink: 0;
+  height: 55%;
+  aspect-ratio: 1;
 }
 
-/* Video spans full width */
 .video-placeholder {
-  grid-column: 1 / -1;
+  flex-shrink: 0;
+  height: 55%;
   aspect-ratio: 16 / 9;
 }
 
@@ -473,7 +492,8 @@ body {
   }
 
   .project-media {
-    height: auto;
+    height: 50dvh;
+    min-height: 280px;
   }
 
   .nav-dots {
@@ -486,11 +506,4 @@ body {
     font-size: 2.6rem;
   }
 
-  .media-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .video-placeholder {
-    grid-column: 1;
-  }
 }
