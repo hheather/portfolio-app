@@ -79,7 +79,7 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #fff;
+  background: var(--border);
   border: black solid 1px;
   cursor: pointer;
   transition: background var(--transition), transform var(--transition);
@@ -87,9 +87,9 @@ body {
 }
 
 .dot:hover {
-  background: var(--accent);
+  /* background: var(--accent); */
   transform: scale(1.4);
-  border: none;
+  /* border: none; */
 }
 
 .dot.active {
@@ -126,7 +126,7 @@ body {
 }
 
 .landing-image img {
-  width: 30rem;
+  width: 20rem;
 }
 
 .landing-tag {
