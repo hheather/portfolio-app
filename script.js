@@ -5,6 +5,25 @@
 (function () {
   'use strict';
 
+  // ----------------------------------------------------------
+  // SECTION LOADER: fetch HTML partials and inject into DOM
+  // ----------------------------------------------------------
+  async function loadSections() {
+    const placeholders = Array.from(
+      document.querySelectorAll('[data-include]')
+    );
+    await Promise.all(placeholders.map(async (el) => {
+      const url = el.dataset.include;
+      const res = await fetch(url);
+      const html = await res.text();
+      el.outerHTML = html;
+    }));
+  }
+
+  loadSections().then(init);
+
+  function init() {
+
   const container = document.getElementById('scroll-container');
   const sections  = Array.from(document.querySelectorAll('.section'));
   const dots      = Array.from(document.querySelectorAll('.nav-dots .dot'));
@@ -114,5 +133,7 @@
       if (index !== -1) scrollToSection(index);
     }
   }
+
+  } // end init
 
 })();

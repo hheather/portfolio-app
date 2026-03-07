@@ -1,0 +1,92 @@
+<section class="section project" id="murmurations">
+  <div class="project-inner">
+
+    <div class="project-info">
+      <span class="project-number">04</span>
+      <h2 class="project-title">Murmurations in Space</h2>
+      <p class="project-description">
+        Murmuration sitings are becoming increasingly rare due to the dramatic decline in starling populations, 
+        particularly in the UK. Inspired by Linda Dounia’s work, which speculates on unrecorded aspects of the natural world,
+         I wanted to recreate this phenomena using a GAN model, to suggest new, imagined formations and shapes.
+        <br><br>
+        For the visuals, a DCGAN model was trained on a small dataset containing frames of two different 
+        starling murmuration video recordings. The latent space was then explored randomly to create 
+        dream-like shifting imagery of new, imagined shapes and colours. For the audio, a RAVE model 
+        was trained on 5 hours of bird song recordings. The latent space of which was also explored 
+        randomly to produce the final output.
+        <br><br>
+        The low quality of the output is due to the DCGAN model being trained on relatively small images (64x64). 
+        It is an older example of GAN architecture from 2015, but it was sufficient to experiment with and it can 
+        manage with small training data sets (Small AI) - something I consider important due to the resources and
+         energy required for training on larger datasets.
+      </p>
+
+      <div class="tools-section">
+        <h3 class="tools-label">Tools &amp; Technologies</h3>
+        <ul class="tools-list">
+          <li>Python</li>
+          <li>pytorch</li>
+          <li>DCGAN model</li>
+          <li>RAVE model</li>
+        </ul>
+      </div>
+
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="overview" data-project="3">Overview</button>
+        <button class="tab-btn" data-tab="process" data-project="3">Process</button>
+      </div>
+    </div>
+
+    <div class="project-media">
+      <div class="tab-panel active" id="overview-3">
+        <div class="media-grid">
+          <div class="media-placeholder video-placeholder">
+            <iframe src="https://www.youtube.com/embed/n2utkvw-4kc" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="projects/murmurations/images/audio_sample_tests.png">
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="projects/murmurations/images/validation_loss.png">
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="projects/murmurations/images/murmurations.jpg">
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="projects/murmurations/images/final.png">
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="process-3">
+        <div class="process-content">
+          <h3>How It Was Built</h3>
+          <p>
+            Describe the process in depth here — your research, prototyping
+            phases, technical challenges, and how you arrived at the final
+            form.
+          </p>
+          <p>
+            Add more paragraphs as needed.
+          </p>
+          <div class="process-steps">
+            <div class="process-step">
+              <span class="step-num">1</span>
+              <p>Research &amp; concept development — placeholder text for this phase.</p>
+            </div>
+            <div class="process-step">
+              <span class="step-num">2</span>
+              <p>Prototyping &amp; iteration — placeholder text for this phase.</p>
+            </div>
+            <div class="process-step">
+              <span class="step-num">3</span>
+              <p>Final build &amp; deployment — placeholder text for this phase.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
