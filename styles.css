@@ -229,6 +229,19 @@ body {
   max-width: 1300px;
   height: 100%;
   align-items: stretch;
+  position: relative;
+}
+
+.project-inner::after {
+  content: "SCROLL →";
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  pointer-events: none;
 }
 
 /* ---- Left: Info column ---- */
