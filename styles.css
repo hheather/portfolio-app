@@ -525,10 +525,11 @@ body {
     padding-left: 24px;
     overflow-y: auto;
     align-items: flex-start;
+    touch-action: pan-y;
   }
 
   .landing-inner {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .landing-image {
@@ -553,6 +554,11 @@ body {
   .project-media {
     height: 50dvh;
     min-height: 280px;
+  }
+
+  .scroll-images-hint {
+    position: static;
+    margin-top: 8px;
   }
 
   .nav-dots {
