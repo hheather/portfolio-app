@@ -259,8 +259,7 @@ body {
   position: relative;
 }
 
-.project-inner::after {
-  content: "SCROLL IMAGES →";
+.scroll-images-hint {
   position: absolute;
   bottom: 20px;
   right: 0;
@@ -524,6 +523,8 @@ body {
 
   .landing {
     padding-left: 24px;
+    overflow-y: auto;
+    align-items: flex-start;
   }
 
   .landing-inner {
