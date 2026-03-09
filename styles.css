@@ -45,11 +45,6 @@ body {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  /* hide scrollbar visually but keep it functional */
-  /* scrollbar-width: none; */
-}
-.scroll-container::-webkit-scrollbar {
-  display: none;
 }
 
 /* ============================================================
