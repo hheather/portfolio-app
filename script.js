@@ -129,6 +129,29 @@
   sections.forEach(s => indexObserver.observe(s));
 
   // ----------------------------------------------------------
+  // TOUCH SWIPE: horizontal swipe on landing navigates to next section
+  // (touch-action: pan-y on landing blocks native horizontal scroll)
+  // ----------------------------------------------------------
+  const landing = document.querySelector('.landing');
+  if (landing) {
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    landing.addEventListener('touchstart', e => {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    landing.addEventListener('touchend', e => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      const dy = e.changedTouches[0].clientY - touchStartY;
+      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+        scrollToSection(dx < 0 ? currentIndex + 1 : currentIndex - 1);
+      }
+    }, { passive: true });
+  }
+
+  // ----------------------------------------------------------
   // HASH NAVIGATION: jump to section on page load
   // ----------------------------------------------------------
   const hash = window.location.hash;
