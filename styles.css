@@ -337,7 +337,6 @@ body {
   /* visibility: hidden; */
   display: flex;
   gap: 4px;
-  margin-top: auto;
 }
 
 .tab-btn {
