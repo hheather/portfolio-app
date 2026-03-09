@@ -46,7 +46,7 @@ body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   /* hide scrollbar visually but keep it functional */
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
 .scroll-container::-webkit-scrollbar {
   display: none;
@@ -372,7 +372,6 @@ body {
   align-items: center;
   overflow-x: auto;
   overflow-y: hidden;
-  scrollbar-width: thin;
   scrollbar-color: var(--border) transparent;
 }
 
