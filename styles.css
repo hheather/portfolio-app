@@ -361,7 +361,7 @@ body {
 .tab-btn.active {
   background: var(--accent);
   border-color: var(--accent);
-  color: #0d0d0d;
+  color: var(--bg);
 }
 
 /* ---- Right: Media column ---- */
@@ -471,6 +471,21 @@ body {
 }
 
 .process-details p {
+  font-size: 0.75rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.process-details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.process-details ul li::before {
+  content: "* ";
+}
+
+.process-details ul li {
   font-size: 0.75rem;
   color: var(--muted);
   line-height: 1.8;
