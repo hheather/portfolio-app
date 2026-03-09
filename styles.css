@@ -37,9 +37,13 @@ body {
    SCROLL CONTAINER
    ============================================================ */
 .scroll-container {
+  display: flex;
+  flex-direction: row;
+  width: 100dvw;
   height: 100dvh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   /* hide scrollbar visually but keep it functional */
   scrollbar-width: none;
@@ -52,6 +56,8 @@ body {
    SECTIONS (shared)
    ============================================================ */
 .section {
+  flex-shrink: 0;
+  width: 100dvw;
   height: 100dvh;
   scroll-snap-align: start;
   display: flex;
@@ -66,11 +72,11 @@ body {
    ============================================================ */
 .nav-dots {
   position: fixed;
-  right: 28px;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 12px;
   z-index: 100;
 }
@@ -192,9 +198,9 @@ body {
 /* Scroll hint */
 .scroll-hint {
   position: absolute;
-  bottom: 36px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,7 +210,7 @@ body {
   font-size: 0.7rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  animation: fadeInUp 1s ease 1.2s both;
+  animation: fadeInRight 1s ease 1.2s both;
 }
 
 .scroll-arrow {
@@ -216,20 +222,20 @@ body {
 }
 
 .scroll-arrow::before {
-  content: "↓";
+  content: "→";
   white-space: pre;
   text-align: center;
   display: block;
 }
 
 @keyframes scrollPulse {
-  0%, 100% { opacity: 0.3; transform: scaleY(1); }
-  50%       { opacity: 1;   transform: scaleY(1.15); }
+  0%, 100% { opacity: 0.3; transform: scaleX(1); }
+  50%       { opacity: 1;   transform: scaleX(1.15); }
 }
 
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateX(-50%) translateY(16px); }
-  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateY(-50%) translateX(16px); }
+  to   { opacity: 1; transform: translateY(-50%) translateX(0); }
 }
 
 /* ============================================================
@@ -253,7 +259,7 @@ body {
 }
 
 .project-inner::after {
-  content: "SCROLL →";
+  content: "SCROLL IMAGES →";
   position: absolute;
   bottom: 20px;
   right: 0;
@@ -268,10 +274,11 @@ body {
 .project-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
   padding-right: 20px;
 }
+
 
 .project-number {
   font-family: var(--font-mono);
@@ -330,7 +337,7 @@ body {
   /* visibility: hidden; */
   display: flex;
   gap: 4px;
-  margin-top: 8px;
+  margin-top: auto;
 }
 
 .tab-btn {
@@ -442,36 +449,39 @@ body {
   border: none;
 }
 
-/* Process panel */
-.process-content {
-  width: 100%;
-  padding: 32px;
-  /* background: var(--surface); */
-  border: 1px dashed var(--border);
-  border-radius: var(--radius);
+/* Process details — shown in left column when process tab active */
+.process-details {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
   overflow-y: auto;
-  max-height: calc(100dvh - 160px);
 }
 
-.process-content h3 {
+.project-inner.process-active .process-details {
+  display: flex;
+}
+
+.project-inner.process-active .project-description,
+.project-inner.process-active .tools-section {
+  display: none;
+}
+
+.process-details h3 {
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--accent);
-  margin-bottom: 16px;
 }
 
-.process-content p {
+.process-details p {
   font-size: 0.75rem;
   color: var(--muted);
   line-height: 1.8;
-  margin-bottom: 16px;
 }
 
 .process-steps {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 8px;
 }
 
 .process-step {
@@ -498,6 +508,9 @@ body {
 .process-step p {
   margin-bottom: 0;
   padding-top: 3px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  line-height: 1.8;
 }
 
 /* ============================================================
@@ -541,7 +554,7 @@ body {
   }
 
   .nav-dots {
-    right: 12px;
+    bottom: 12px;
   }
 }
 

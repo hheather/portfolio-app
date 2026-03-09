@@ -81,6 +81,12 @@
 
       overviewPanel.classList.toggle('active', tab === 'overview');
       processPanel.classList.toggle('active',  tab === 'process');
+
+      // Toggle process-active on the project inner for left-column switching
+      const projectInner = btn.closest('.project-inner');
+      if (projectInner) {
+        projectInner.classList.toggle('process-active', tab === 'process');
+      }
     });
   });
 
@@ -99,10 +105,10 @@
   }
 
   document.addEventListener('keydown', e => {
-    if (e.key === 'ArrowDown' || e.key === 'PageDown') {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown') {
       e.preventDefault();
       scrollToSection(currentIndex + 1);
-    } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+    } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
       e.preventDefault();
       scrollToSection(currentIndex - 1);
     }
