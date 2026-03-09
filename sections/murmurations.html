@@ -14,17 +14,6 @@
         Murmuration sitings are becoming increasingly rare due to the dramatic decline in starling populations,
         particularly in the UK. Inspired by Linda Dounia's work, which speculates on unrecorded aspects of the natural world,
          I wanted to recreate this phenomena using a GAN model, to suggest new, imagined formations and shapes.
-        <br><br>
-        For the visuals, a DCGAN model was trained on a small dataset containing frames of two different
-        starling murmuration video recordings. The latent space was then explored randomly to create
-        dream-like shifting imagery of new, imagined shapes and colours. For the audio, a RAVE model
-        was trained on 5 hours of bird song recordings. The latent space of which was also explored
-        randomly to produce the final output.
-        <br><br>
-        The low quality of the output is due to the DCGAN model being trained on relatively small images (64x64).
-        It is an older example of GAN architecture from 2015, but it was sufficient to experiment with and it can
-        manage with small training data sets (Small AI) - something I consider important due to the resources and
-         energy required for training on larger datasets.
       </p>
 
       <div class="tools-section">
@@ -38,16 +27,22 @@
       </div>
 
       <div class="process-details">
-        <p>
-          Describe the process in depth here — your research, prototyping
-          phases, technical challenges, and how you arrived at the final
-          form.
-        </p>
-        <p>
-          Add more paragraphs as needed.
-        </p>
+        <ul>
+          <li>For the visuals, a <b>DCGAN model</b> was trained on a small dataset containing frames 
+            of two different starling murmuration video recordings. </li>
+          <li>The latent space was then explored randomly to generate
+        dream-like images, which when combined to create a video, creates shifting imagery of new,
+         imagined shapes and colours.</li>
+          <li>For the audio, a <b>RAVE model</b> was trained on 5 hours of bird song recordings. 
+            The latent space of which was also explored randomly to produce the final output.</li>
+          <li>The two were combined to create the final audio-visual piece.</li>
+        </ul>
+        <a href="https://github.com/hheather/murmurations-in-space">See Code Here</a>
+        <p>The low quality of the output is due to the DCGAN model being trained on relatively small images (64x64).
+        It is an older example of GAN architecture from 2015, but it was sufficient to experiment with and it can
+        manage with small training data sets <b>(Small AI)</b> - something I consider important due to the resources and
+         energy required for training on larger datasets.</p>
       </div>
-
     </div>
 
     <div class="project-media">
