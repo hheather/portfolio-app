@@ -44,11 +44,18 @@
           of the selected person's appearence, such as their hair colour, outfit, and pose.</li>
           <li>The output of the VL model is then inputted into an LLM, which is prompted to address 
             the person through their appearence.</li>
+          <li>The person's proximity to the webcam is calculated using the YOLO model with Python to estimate
+            their distance and orientation (left/right/centre) within the frame.
+          </li>
         </ul>
 
         <a href="https://github.com/hheather/the-camera-loves-you">See Code Here</a>
-      </div>
 
+        <h3>Learnings</h3>
+        <p>This was an extensive project combining facets of VL, LLMs and interaction design, whilst drawing from my
+        experience in Python development. The development of this piece complimented my thesis project on
+        responible development of Conversational AI, a topic I have a profound interest in.</p>
+      </div>
     </div>
 
     <!-- Right column: media -->
@@ -72,11 +79,11 @@
 
       <div class="tab-panel" id="process-1">
         <div class="media-grid">
-          <div class="media-placeholder img-placeholder">
-            <img src="images/camera-loves-you/tts_proxomity.jpeg">
-          </div>
           <div class="media-placeholder img-placeholder aspect-square">
             <img src="images/camera-loves-you/VL_generation.jpeg">
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="images/camera-loves-you/tts_proxomity.jpeg">
           </div>
         </div>
       </div>

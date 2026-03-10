@@ -252,6 +252,7 @@ body {
   height: 100%;
   align-items: stretch;
   position: relative;
+  z-index: 1;
 }
 
 .scroll-images-hint {
