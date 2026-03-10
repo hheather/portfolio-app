@@ -365,20 +365,6 @@ body {
   position: relative;
   display: flex;
   align-items: flex-start;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scrollbar-color: var(--border) transparent;
-}
-
-.project-media::-webkit-scrollbar {
-  height: 4px;
-}
-.project-media::-webkit-scrollbar-track {
-  background: transparent;
-}
-.project-media::-webkit-scrollbar-thumb {
-  background: rgb(255, 255, 0);
-  border-radius: 2px;
 }
 
 /* Tab panels */
@@ -393,14 +379,12 @@ body {
   align-items: center;
 }
 
-/* Media grid — horizontal scrolling strip */
+/* Media grid — flex column layout */
 .media-grid {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 12px;
-  height: 100%;
-  align-items: center;
-  padding: 16px 0;
+  width: 100%;
 }
 
 .media-placeholder {
@@ -423,8 +407,8 @@ body {
 }
 
 .img-placeholder {
-  flex-shrink: 0;
-  height: 55dvh;
+  width: 70%;
+  margin: auto;
   aspect-ratio: 16 / 9;
 }
 
@@ -557,11 +541,6 @@ body {
 
   .project-info {
     padding-right: 0;
-  }
-
-  .project-media {
-    height: 50dvh;
-    min-height: 280px;
   }
 
   .scroll-images-hint {
