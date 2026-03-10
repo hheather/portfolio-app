@@ -385,6 +385,7 @@ body {
   flex-direction: column;
   gap: 12px;
   width: 100%;
+  align-items: flex-end;
 }
 
 .media-placeholder {
@@ -408,7 +409,6 @@ body {
 
 .img-placeholder {
   width: 70%;
-  margin: auto;
   aspect-ratio: 16 / 9;
 }
 
