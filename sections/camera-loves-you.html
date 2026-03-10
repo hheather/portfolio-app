@@ -34,31 +34,45 @@
 
       <div class="process-details">
         <p>
-          The piece combines a Vision Language model and an LLM to generate personalised text directed at
-          a randomly selected person within view of the webcam.
+          The Camera Loves You is a seeing, speaking CCTV camera that singles out members of its audience
+          and addresses them directly, commenting on their appearance, calling them closer, performing a
+          strange, one-sided intimacy. It draws on themes of surveillance, agency, and the automation of
+          affection within AI systems.
         </p>
         <ul>
-          <li>Inspired by <a href="https://www.creativeapplications.net/project/mechanisms-of-fascination-granting-humanity-to-the-artificial/">Mechanisms of Fascination</a> by Rotor Studio 
-          and their use of a Vision-Language model as LLM input for personalised interactivity.</li>
-          <li>A person within-frame is selected at random using the YOLO person tracking model.</li>
-          <li>Their proximity from the webcam is estimated based on their size within-frame relative to overall frame size.</li>
-          <li>The Vision Language model QwenVL2.5 is prompted to generate ultra-specifc descriptions 
-          of their appearence, such as their hair colour, outfit, and pose.</li>
-          <li>The VL model's output is combined with the proximity estimation
-            as input to the LLM, which is then prompted to address 
-            the person through their appearence, asking them to come closer if they are far away.</li>
-          <li>The LLM's output is printed on-screen, as well as via audio using a custom Text-to-Speech program.</li>
-          <li>This highly-personalised interaction is intended to create a sense of discomfort and intrigue within the user,
-            sparking conversations around agency and the performance of affection within artificial systems.
-          </li>
+          <li>Inspired by <a href="https://www.creativeapplications.net/project/mechanisms-of-fascination-granting-humanity-to-the-artificial/">Mechanisms of Fascination</a> by Rotor Studio,
+          the piece uses a Vision-Language model (Qwen VL 2.5) to generate detailed descriptions of a
+          randomly selected person in frame, their clothing, hair, pose, detected and tracked via YOLO.</li>
+          <li>Their proximity is estimated from their size relative to the frame, giving the system a sense of
+          spatial awareness. These descriptions, along with positional data, are fed into an LLM prompted
+          to address the person as though it's watching them, flattering, coaxing, asking them to step closer.</li>
+          <li>          The output is displayed on-screen and spoken aloud via a custom text-to-speech program, displayed
+          on a CRT monitor with the camera mounted overhead in a CCTV-style setup.</li>
         </ul>
 
         <a href="https://github.com/hheather/the-camera-loves-you">See Code Here</a>
-
         <h3>Learnings</h3>
-        <p>This was an extensive project combining facets of VL, LLMs and interaction design, whilst drawing from my
-        experience in Python development. The development of this piece complimented my thesis project on
-        responible development of Conversational AI, a topic I have a profound interest in.</p>
+        <p>
+          This was my most technically ambitious project to date, combining vision-language models, LLMs,
+          real-time person detection, and text-to-speech into a single interactive pipeline. My original concept
+          was a speed-dating simulation where users would actively converse with an emotionally manipulative AI persona.
+          I spent several weeks fine-tuning a local LLM on dialogue data inspired by the film <i>Her</i>,
+          but found the outputs too unpredictable, highlighting just how much data is needed to reliably shape an LLM's personality.
+        </p>
+        <p>
+          The pivot to a passive, observational piece was a crucial design decision. User testing revealed that
+          the conversational format felt like an interview, people had to perform for the AI rather than be affected by it.
+          Removing that burden and letting the camera initiate the interaction made the experience far more
+          unsettling and effective. It taught me that the most powerful interactions aren't always the most complex ones.
+        </p>
+        <p>
+          On the technical side, I learned a lot about evaluating and comparing VL models. Building the TTS component 
+          introduced its own challenges around threading and
+          platform compatibility between macOS and Windows, and I made the deliberate choice to use built-in system voices
+          rather than an API, both to reduce latency and to let the operating system's default voice become part of the piece's character.
+          The CRT monitor and overhead CCTV-style camera positioning were late additions that significantly strengthened the
+          conceptual framing around surveillance and artificial intimacy.
+        </p>
       </div>
     </div>
 

@@ -31,16 +31,43 @@
       </div>
 
       <div class="process-details">
+        <p>The brief was to prototype an interactive experience with 
+          Unity and to design an external controller using Arduino 
+          with one simple interaction.</p>
+        <ul>
+          <li>I was inspired by the ethereal-looking default sky box within Unity,
+            which gave me the initial idea of using heaven as a basis for the concept.
+          </li>
+          <li>
+            The interaction is a third-person endless runner scenario, similar to Temple Run. This 
+            kept things simple, as the aim for me was to learn how to do location-based spawning
+            based on the position of the player (cloud spawning).
+          </li>
+          <li>
+            For earth, I wanted to add the climate-disaster based twist at the end - for dramatic affect and silliness.
+          </li>
+          <li>
+            For the controller, I originally wanted to use a heart rate monitor, which I thought would make 
+            for an unusual and humorous interaction. However, due to issues with my monitor and time constraints, 
+            I opted for a simple stylised button in the shape of a heart. The player's speed was determined by 
+            how fast you pressed the button, communicated to Unity via Serial.
+          </li>
+        </ul>
+        <h3>Learnings</h3>
         <p>
-          Describe the process in depth here — your research, prototyping
-          phases, technical challenges, and how you arrived at the final
-          form.
-        </p>
-        <p>
-          Add more paragraphs as needed.
+            This project was my first real experience working with Unity and Arduino together,
+            and it taught me a lot about the practicalities of bridging physical and digital interactions.
+            Setting up Serial communication between the two was more finicky than expected, and
+            I learned the importance of keeping the interaction model simple when the technical
+            pipeline is new. The location-based cloud spawning pushed me to think more carefully
+            about procedural logic and performance, both spawning and cleaning up objects relative to the player's location. 
+            I also learned to adapt quickly when things don't
+            go to plan; pivoting from the heart rate monitor to a physical button meant rethinking
+            the interaction, but it ultimately resulted in something more intuitive and playful.
+            If I were to revisit this, I'd love to explore biometric input properly and experiment
+            with more dynamic environmental responses tied to the player's physical state.
         </p>
       </div>
-
     </div>
 
     <div class="project-media">
