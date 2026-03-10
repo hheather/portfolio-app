@@ -39,13 +39,17 @@
         </p>
         <ul>
           <li>Inspired by <a href="https://www.creativeapplications.net/project/mechanisms-of-fascination-granting-humanity-to-the-artificial/">Mechanisms of Fascination</a> by Rotor Studio 
-          with their use of a Vision-Language model as LLM input for personalised interaction.</li>
+          and their use of a Vision-Language model as LLM input for personalised interactivity.</li>
+          <li>A person within-frame is selected at random using the YOLO person tracking model.</li>
+          <li>Their proximity from the webcam is estimated based on their size within-frame relative to overall frame size.</li>
           <li>The Vision Language model QwenVL2.5 is prompted to generate ultra-specifc descriptions 
-          of the selected person's appearence, such as their hair colour, outfit, and pose.</li>
-          <li>The output of the VL model is then inputted into an LLM, which is prompted to address 
-            the person through their appearence.</li>
-          <li>The person's proximity to the webcam is calculated using the YOLO model with Python to estimate
-            their distance and orientation (left/right/centre) within the frame.
+          of their appearence, such as their hair colour, outfit, and pose.</li>
+          <li>The VL model's output is combined with the proximity estimation
+            as input to the LLM, which is then prompted to address 
+            the person through their appearence, asking them to come closer if they are far away.</li>
+          <li>The LLM's output is printed on-screen, as well as via audio using a custom Text-to-Speech program.</li>
+          <li>This highly-personalised interaction is intended to create a sense of discomfort and intrigue within the user,
+            sparking conversations around agency and the performance of affection within artificial systems.
           </li>
         </ul>
 

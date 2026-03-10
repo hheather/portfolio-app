@@ -237,10 +237,11 @@ body {
    PROJECT SECTIONS
    ============================================================ */
 .project {
-  align-items: stretch;
+  align-items: flex-start;
   padding: 40px max(40px, 5vw);
   border-left: 1px solid var(--border);
   border-right: 1px solid var(--border);
+  overflow-y: auto;
 }
 
 .project-inner {
@@ -249,8 +250,7 @@ body {
   gap: 60px;
   width: 100%;
   max-width: 1300px;
-  height: 100%;
-  align-items: stretch;
+  align-items: start;
   position: relative;
   z-index: 1;
 }
@@ -363,9 +363,8 @@ body {
 /* ---- Right: Media column ---- */
 .project-media {
   position: relative;
-  height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-color: var(--border) transparent;
@@ -425,7 +424,7 @@ body {
 
 .img-placeholder {
   flex-shrink: 0;
-  height: 55%;
+  height: 55dvh;
   aspect-ratio: 16 / 9;
 }
 
