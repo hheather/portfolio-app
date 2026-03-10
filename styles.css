@@ -149,7 +149,7 @@ body {
 }
 
 .landing-bio {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.8;
   max-width: 520px;
@@ -292,7 +292,7 @@ body {
 }
 
 .project-description {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.75;
 }
