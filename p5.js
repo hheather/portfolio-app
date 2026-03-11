@@ -5,7 +5,7 @@
    ============================================================ */
 
 new p5(function (p) {
-  const GRID      = 20;
+  const GRID      = 15;
   const SHOW_DOTS = true;
   const SHOW_LINES = false;
   let dots = [];
@@ -90,8 +90,8 @@ new p5(function (p) {
     if (SHOW_DOTS) {
       p.noStroke();
       for (const dot of dots) {
-        p.fill(dot.affected ? [0, 0, 255, 180] : [0, 0, 0, 90]);
-        p.circle(dot.x, dot.y, 1.5);
+        p.fill(dot.affected ? [255, 0, 255] : [0, 0, 0, 90]);
+        p.circle(dot.x, dot.y, 2);
       }
     }
   };

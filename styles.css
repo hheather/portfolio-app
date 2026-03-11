@@ -9,7 +9,7 @@
 
 /* eeff00 */
 :root {
-  --bg:         #ededed;
+  --bg:         #fff;
   --surface:    #ffffff9f;
   --border:     rgb(255, 255, 0);
   --text:       rgb(255, 0, 255);
@@ -250,7 +250,7 @@ body {
   gap: 60px;
   width: 100%;
   max-width: 1300px;
-  align-items: start;
+  align-items: center;
   position: relative;
   z-index: 1;
 }
@@ -364,7 +364,7 @@ body {
 .project-media {
   position: relative;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 /* Tab panels */
@@ -412,13 +412,19 @@ body {
   aspect-ratio: 16 / 9;
 }
 
+.img-placeholder:has(video) {
+  width: 90%;
+  /* margin: auto; */
+}
+
 .img-placeholder.aspect-square {
   aspect-ratio: 1;
 }
 
 /* When you replace placeholder with a real iframe */
 .media-placeholder iframe,
-.media-placeholder img {
+.media-placeholder img,
+.media-placeholder video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -432,6 +438,10 @@ body {
   flex-direction: column;
   gap: 16px;
   overflow-y: auto;
+}
+
+.project-inner.process-active {
+  align-items: start;
 }
 
 .project-inner.process-active .process-details {
