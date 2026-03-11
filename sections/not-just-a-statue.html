@@ -1,0 +1,88 @@
+<section class="section project" id="not-just-a-status">
+  <div class="project-inner">
+
+    <div class="project-info">
+      <span class="project-number">04</span>
+      <h2 class="project-title">Not Just a Statue</h2>
+
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="overview" data-project="4">Overview</button>
+        <button class="tab-btn" data-tab="process" data-project="4">Process</button>
+      </div>
+
+      <p class="project-description">
+        Not Just a Sculpture is an interactive light installation that responds to the persistent objectification of women represented in sculptural form. 
+        Across the world, statues bear the visible traces of being repeatedly touched by passers by, reducing these representations of inspirational women into objects of desire. These acts are often dismissed with the phrase, "it's just a statue".
+         By making the sculpture reactive, the viewer questions their relationship to it. Is it just a sculpture that can be touched without consequence, or does it represent something more? A light beams onto the statue, tracking your movement, is it watching you? If you are to touch her, be warned.
+      </p>
+
+      <div class="tools-section">
+        <h3 class="tools-label">Tools &amp; Technologies</h3>
+        <ul class="tools-list">
+          <li>Arduino</li>
+          <li>LED Lights</li>
+          <li>Servo Motor</li>
+          <li>Ultrasonic Distance Sensor (HC-SR04)</li>
+          <li>MPR121</li>
+          <li>Hand-sculpted Aluminium Mesh</li>
+        </ul>
+      </div>
+
+      <div class="process-details">
+        <ul>
+          <li>Inspired by the <b>Unsilence The Violence Campaign</b>, which highlighted how bronze statues of women
+            have been eroded by frequent touching, I wanted to create an interactive sculpture that <b>reacts</b> to
+            the viewer, challenging the passive objectification those statues embody.</li>
+          <li>The bust was hand-sculpted from <b>aluminium wire mesh</b>, chosen for its malleability
+            and conductivity, drawing on the wire sculpture techniques of artist David Begbie.</li>
+          <li>An <b>ultrasonic distance sensor</b> mounted on a servo motor sweeps to detect the viewer's position,
+            mapping their angle to a grid of <b>91 NeoPixel LEDs</b> arranged in 9 columns at the base. This projects
+            the sculpture's shadow onto the wall, creating the illusion that the figure is aware of and tracking
+            the viewer.</li>
+          <li>A hidden <b>MPR121 capacitive touch sensor</b>, connected via the conductive aluminium rods, detects
+            when the sculpture is touched, triggering an eruption of red light and erratic shadow movement
+            to symbolise rage.</li>
+          <li>The base was built in plywood and painted black to suit
+            the dark viewing environment. A 3D-printed mount holds the servo-sonar assembly.</li>
+        </ul>
+        <h3>Learnings</h3>
+        <p>The initial concept used heated wax to physically erode, but this proved impractical — the wax was messy
+          and heat pads were difficult to conceal. Pivoting to <b>light and shadow</b> proved far more effective,
+          leveraging the mesh's natural shadow-casting properties. The sonar sensor's limited accuracy
+          (1–2m range) and the LEDs producing less defined shadows than a point light source are areas
+          for future refinement, along with adding <b>reactive sound</b> to deepen the experience.</p>
+      </div>
+    
+    </div>
+
+    <div class="project-media">
+      <div class="tab-panel active" id="overview-4">
+        <div class="media-grid">
+          <div class="media-placeholder img-placeholder aspect-portrait" style="width: 50%; margin: auto;">
+            <video src="https://pub-2f5d17a0dac44a39893fd5eb153367c0.r2.dev/IMG_6933.MOV" autoplay loop muted playsinline></video>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="process-4">
+        <div class="media-grid">
+          <div class="media-placeholder img-placeholder">
+            <img src="images/not-just-a-statue/inspo 4.jpg">
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="images/not-just-a-statue/printed servo stand 2.jpeg">
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="images/not-just-a-statue/circuit.jpeg">
+          </div>
+          <div class="media-placeholder img-placeholder">
+            <img src="images/not-just-a-statue/LEDs on mount - 1.jpeg">
+          </div>
+          <div class="media-placeholder img-placeholder aspect-portrait">
+            <img src="images/not-just-a-statue/sculpture progress 7.jpeg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

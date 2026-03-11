@@ -330,13 +330,12 @@ body {
 
 /* Tab bar */
 .tab-bar {
-  /* visibility: hidden; */
   display: flex;
   gap: 4px;
 }
 
 .tab-btn {
-  background: none;
+  background: var(--bg);
   border: 1px solid var(--border);
   color: var(--muted);
   font-family: var(--font-mono);
@@ -419,6 +418,10 @@ body {
 
 .img-placeholder.aspect-square {
   aspect-ratio: 1;
+}
+
+.img-placeholder.aspect-portrait {
+  aspect-ratio: 9 / 16;
 }
 
 /* When you replace placeholder with a real iframe */
