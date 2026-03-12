@@ -384,7 +384,7 @@ body {
   flex-direction: column;
   gap: 12px;
   width: 100%;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .media-placeholder {
