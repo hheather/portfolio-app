@@ -24,13 +24,41 @@
 
   function init() {
 
-  const container = document.getElementById('scroll-container');
-  const sections  = Array.from(document.querySelectorAll('.section'));
-  const dots      = Array.from(document.querySelectorAll('.nav-dots .dot'));
+  // ----------------------------------------------------------
+  // VIEW SWITCHING
+  // ----------------------------------------------------------
+  const viewEls = {
+    home:     document.getElementById('view-home'),
+    projects: document.getElementById('view-projects'),
+    contact:  document.getElementById('view-contact'),
+  };
+  const navLinks = Array.from(document.querySelectorAll('.top-nav .nav-link'));
+  const navDotsEl = document.querySelector('.nav-dots');
+  let currentView = 'home';
+
+  function switchView(viewName) {
+    Object.values(viewEls).forEach(v => v.classList.remove('active'));
+    navLinks.forEach(l => l.classList.remove('active'));
+
+    viewEls[viewName].classList.add('active');
+    const activeLink = document.querySelector(`.top-nav .nav-link[data-view="${viewName}"]`);
+    if (activeLink) activeLink.classList.add('active');
+
+    navDotsEl.classList.toggle('hidden', viewName !== 'projects');
+    currentView = viewName;
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => switchView(link.dataset.view));
+  });
 
   // ----------------------------------------------------------
-  // NAV DOTS: click to jump to section
+  // NAV DOTS: click to jump to project section
   // ----------------------------------------------------------
+  const container = document.getElementById('scroll-container');
+  const sections  = Array.from(document.querySelectorAll('.section.project'));
+  const dots      = Array.from(document.querySelectorAll('.nav-dots .dot'));
+
   dots.forEach(dot => {
     dot.addEventListener('click', () => {
       const index = parseInt(dot.dataset.index, 10);
@@ -68,21 +96,18 @@
       const tab     = btn.dataset.tab;
       const project = btn.dataset.project;
 
-      // Deactivate sibling buttons
       const siblingBtns = document.querySelectorAll(
         `.tab-btn[data-project="${project}"]`
       );
       siblingBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      // Show correct panel
       const overviewPanel = document.getElementById(`overview-${project}`);
       const processPanel  = document.getElementById(`process-${project}`);
 
       overviewPanel.classList.toggle('active', tab === 'overview');
       processPanel.classList.toggle('active',  tab === 'process');
 
-      // Toggle process-active on the project inner for left-column switching
       const projectInner = btn.closest('.project-inner');
       if (projectInner) {
         projectInner.classList.toggle('process-active', tab === 'process');
@@ -105,6 +130,7 @@
   }
 
   document.addEventListener('keydown', e => {
+    if (currentView !== 'projects') return;
     if (e.key === 'ArrowRight' || e.key === 'PageDown') {
       e.preventDefault();
       scrollToSection(currentIndex + 1);
@@ -127,41 +153,6 @@
   );
 
   sections.forEach(s => indexObserver.observe(s));
-
-  // ----------------------------------------------------------
-  // TOUCH SWIPE: horizontal swipe on landing navigates to next section
-  // (touch-action: pan-y on landing blocks native horizontal scroll)
-  // ----------------------------------------------------------
-  const landing = document.querySelector('.landing');
-  if (landing) {
-    let touchStartX = 0;
-    let touchStartY = 0;
-
-    landing.addEventListener('touchstart', e => {
-      touchStartX = e.touches[0].clientX;
-      touchStartY = e.touches[0].clientY;
-    }, { passive: true });
-
-    landing.addEventListener('touchend', e => {
-      const dx = e.changedTouches[0].clientX - touchStartX;
-      const dy = e.changedTouches[0].clientY - touchStartY;
-      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
-        scrollToSection(dx < 0 ? currentIndex + 1 : currentIndex - 1);
-      }
-    }, { passive: true });
-  }
-
-  // ----------------------------------------------------------
-  // HASH NAVIGATION: jump to section on page load
-  // ----------------------------------------------------------
-  const hash = window.location.hash;
-  if (hash) {
-    const target = document.querySelector(hash);
-    if (target) {
-      const index = sections.indexOf(target);
-      if (index !== -1) scrollToSection(index);
-    }
-  }
 
   } // end init
 

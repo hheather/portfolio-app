@@ -9,27 +9,60 @@
 </head>
 <body>
 
-  <!-- ===================== NAV DOTS ===================== -->
-  <nav class="nav-dots" aria-label="Section navigation">
-    <button class="dot active" data-index="0" aria-label="Landing"></button>
-    <button class="dot" data-index="1" aria-label="Project 1"></button>
-    <button class="dot" data-index="2" aria-label="Project 2"></button>
-    <button class="dot" data-index="3" aria-label="Project 3"></button>
-    <button class="dot" data-index="4" aria-label="Project 4"></button>
-    <button class="dot" data-index="5" aria-label="Project 5"></button>
+  <!-- ===================== TOP NAV ===================== -->
+  <nav class="top-nav" aria-label="Main navigation">
+    <button class="nav-link active" data-view="home">Home</button>
+    <button class="nav-link" data-view="projects">Projects</button>
+    <button class="nav-link" data-view="contact">Contact</button>
   </nav>
 
-  <!-- ===================== SCROLL CONTAINER ===================== -->
-  <main class="scroll-container" id="scroll-container">
+  <!-- ===================== NAV DOTS (projects only) ===================== -->
+  <nav class="nav-dots hidden" aria-label="Project navigation">
+    <button class="dot active" data-index="0" aria-label="Project 1"></button>
+    <button class="dot" data-index="1" aria-label="Project 2"></button>
+    <button class="dot" data-index="2" aria-label="Project 3"></button>
+    <button class="dot" data-index="3" aria-label="Project 4"></button>
+    <button class="dot" data-index="4" aria-label="Project 5"></button>
+  </nav>
 
+  <!-- ===================== HOME VIEW ===================== -->
+  <div id="view-home" class="view active">
     <div data-include="sections/landing.html"></div>
-    <div data-include="sections/camera-loves-you.html"></div>
-    <div data-include="sections/meta-memory.html"></div>
-    <div data-include="sections/grass-isnt-greener.html"></div>
-    <div data-include="sections/not-just-a-statue.html"></div>
-    <div data-include="sections/murmurations.html"></div>
+  </div>
 
-  </main>
+  <!-- ===================== PROJECTS VIEW ===================== -->
+  <div id="view-projects" class="view">
+    <main class="scroll-container" id="scroll-container">
+      <div data-include="sections/camera-loves-you.html"></div>
+      <div data-include="sections/meta-memory.html"></div>
+      <div data-include="sections/grass-isnt-greener.html"></div>
+      <div data-include="sections/not-just-a-statue.html"></div>
+      <div data-include="sections/murmurations.html"></div>
+    </main>
+  </div>
+
+  <!-- ===================== CONTACT VIEW ===================== -->
+  <div id="view-contact" class="view">
+    <section class="section contact" id="contact">
+      <div class="contact-inner">
+        <div class="landing-tag">get in touch</div>
+        <p class="landing-bio">
+          I bring together two perspectives: from my background in software development and data, and
+          an exploratory mindset shaped by creative computing.
+          That combination allows me to take an idea from sketch to stable, interactive prototype,
+            handling the code, the design, and everything in between. 
+          I create immersive experiences that open up a playful space for exploring meaningful topics,
+            using emerging technologies as both the medium and the subject.
+        </p>
+        <ul class="contact-links-list">
+          <li><a href="mailto:hheatherbell@gmail.com" class="contact-link">hheatherbell@gmail.com</a></li>
+          <li><a href="files/CV.pdf" target="_blank" rel="noopener" class="contact-link">CV</a></li>
+          <li><a href="https://www.github.com/hheather" target="_blank" rel="noopener" class="contact-link">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/heather-eb" target="_blank" rel="noopener" class="contact-link">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.min.js"></script>
   <script src="p5.js"></script>
