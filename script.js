@@ -53,6 +53,23 @@
   });
 
   // ----------------------------------------------------------
+  // PROJECT THUMBNAILS: click to switch to projects view + scroll
+  // ----------------------------------------------------------
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.thumb-btn');
+    if (!btn) return;
+    const index = parseInt(btn.dataset.project, 10);
+    switchView('projects');
+    // Wait for view to become visible before scrolling
+    requestAnimationFrame(() => {
+      const target = sections[index];
+      if (target) target.scrollIntoView({ behavior: 'instant' });
+      currentIndex = index;
+      dots.forEach((d, i) => d.classList.toggle('active', i === index));
+    });
+  });
+
+  // ----------------------------------------------------------
   // NAV DOTS: click to jump to project section
   // ----------------------------------------------------------
   const container = document.getElementById('scroll-container');

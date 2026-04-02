@@ -165,29 +165,46 @@ body {
 }
 
 #view-home.active {
-  display: flex;
-  align-items: stretch;
+  display: block;
+  overflow-y: auto;
 }
 
 #view-home .section {
   width: 100%;
-  flex-shrink: unset;
+  height: auto;
+  min-height: calc(100dvh - var(--nav-height));
 }
 
 /* ============================================================
    CONTACT SECTION
    ============================================================ */
 .contact {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-left: max(60px, 8vw);
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px max(60px, 8vw);
 }
 
 .contact-inner {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3rem;
+}
+
+.contact-content {
+  display: flex;
   flex-direction: column;
-  gap: 0;
+}
+
+.contact .landing-image {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.contact .landing-image img {
+  width: 20rem;
 }
 
 .contact-links-list {
@@ -220,14 +237,69 @@ body {
 .landing-inner {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 3rem;
+  align-items: stretch;
+  gap: 4rem;
   width: 100%;
-  /* justify-content: space-between; */
+  height: 70%;
 }
 
 .landing-content {
-  max-width: 680px;
+  flex-shrink: 0;
+}
+
+/* ---- Project thumbnails ---- */
+.project-thumbs {
+  margin-left: 10%;
+  margin-right: 10%;
+  --thumb-gap: 28px;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--thumb-gap);
+  overflow-y: auto;
+  align-self: center;
+}
+
+.thumb-btn {
+  --rot: 0deg;
+  position: relative;
+  width: calc((100% - var(--thumb-gap) * 2) / 3);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transform: rotate(var(--rot));
+}
+
+.thumb-btn:hover {
+  animation: jiggle 0.35s ease both;
+}
+
+@keyframes jiggle {
+  0%   { transform: rotate(var(--rot)); }
+  20%  { transform: rotate(calc(var(--rot) + 5deg)); }
+  40%  { transform: rotate(calc(var(--rot) - 4deg)); }
+  60%  { transform: rotate(calc(var(--rot) + 3deg)); }
+  80%  { transform: rotate(calc(var(--rot) - 2deg)); }
+  100% { transform: rotate(var(--rot)); }
+}
+
+.thumb-btn img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.thumb-num {
+  display: block;
+  text-align: right;
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  line-height: 1;
+  margin-bottom: 4px;
 }
 
 .landing-image {
@@ -636,7 +708,16 @@ body {
   }
 
   .contact {
-    padding-left: 24px;
+    padding: 32px 24px;
+  }
+
+  .contact-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact .landing-image img {
+    width: 12rem;
   }
 
   .section {
@@ -652,6 +733,19 @@ body {
 
   .landing-inner {
     flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .project-thumbs {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .thumb-btn {
+    width: 100%;
   }
 
   .landing-image {
