@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="402"/>
+  <unicode hex="0069"/>
+  <note>
+i
+</note>
+  <anchor x="236" y="0" name="bottom"/>
+  <outline>
+    <component base="idotless" xOffset="51" identifier="ABD5CB02"/>
+    <component base="dotaccentcomb" xOffset="57"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-14 16:18:02 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>ABD5CB02</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

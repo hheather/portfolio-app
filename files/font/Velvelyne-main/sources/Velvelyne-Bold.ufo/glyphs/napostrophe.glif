@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="napostrophe" format="2">
+  <advance width="1026"/>
+  <unicode hex="0149"/>
+  <note>
+napostrophe
+</note>
+  <outline>
+    <component base="n" identifier="A9F8B228"/>
+    <component base="quoteleft" xOffset="-330" yOffset="-110"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 13:45:38 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>A9F8B228</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

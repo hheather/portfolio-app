@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N_E" format="2">
+  <advance width="1921"/>
+  <unicode hex="F3620"/>
+  <anchor x="0" y="0" name="bottom_1"/>
+  <anchor x="0" y="0" name="bottom_2"/>
+  <anchor x="960" y="0" name="caret_1"/>
+  <anchor x="0" y="0" name="top_1"/>
+  <anchor x="0" y="0" name="top_2"/>
+  <outline>
+    <contour identifier="ID0x7fcffd0da030">
+      <point x="208" y="29" type="move"/>
+      <point x="208" y="1074" type="line" smooth="yes"/>
+      <point x="208" y="1198"/>
+      <point x="318" y="1226"/>
+      <point x="377" y="1106" type="curve" smooth="yes"/>
+      <point x="864" y="116" type="line" smooth="yes"/>
+      <point x="918" y="6"/>
+      <point x="1025" y="19"/>
+      <point x="1025" y="129" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="205" y="1397" type="move"/>
+      <point x="262" y="1198" type="line"/>
+    </contour>
+    <contour identifier="ID0x7fcffd123970">
+      <point x="1738" y="1272" type="move"/>
+      <point x="1100" y="1290" type="line" smooth="yes"/>
+      <point x="1047" y="1291"/>
+      <point x="1023" y="1266"/>
+      <point x="1023" y="1211" type="curve" smooth="yes"/>
+      <point x="1024" y="947" type="line" smooth="yes"/>
+      <point x="1024" y="873"/>
+      <point x="1049" y="825"/>
+      <point x="1075" y="788" type="curve" smooth="yes"/>
+      <point x="1104" y="747"/>
+      <point x="1134" y="719"/>
+      <point x="1134" y="682" type="curve" smooth="yes"/>
+      <point x="1134" y="647"/>
+      <point x="1104" y="623"/>
+      <point x="1075" y="587" type="curve" smooth="yes"/>
+      <point x="1049" y="554"/>
+      <point x="1024" y="512"/>
+      <point x="1024" y="443" type="curve" smooth="yes"/>
+      <point x="1025" y="129" type="line" smooth="yes"/>
+      <point x="1025" y="67"/>
+      <point x="1048" y="35"/>
+      <point x="1105" y="35" type="curve" smooth="yes"/>
+      <point x="1780" y="39" type="line"/>
+    </contour>
+    <contour>
+      <point x="1138" y="682" type="move"/>
+      <point x="1674" y="696" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:14:04 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>N</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

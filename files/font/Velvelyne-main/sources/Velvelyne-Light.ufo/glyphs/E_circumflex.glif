@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecircumflex" format="2">
+  <advance width="1101"/>
+  <unicode hex="00CA"/>
+  <note>
+Ecircumflex
+</note>
+  <outline>
+    <component base="E"/>
+    <component base="circumflexcomb.case" xOffset="113" yOffset="-29" identifier="F771F2D4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:02:06 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>E</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>F771F2D4</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

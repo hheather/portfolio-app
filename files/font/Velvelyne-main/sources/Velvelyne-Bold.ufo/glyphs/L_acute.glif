@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lacute" format="2">
+  <advance width="997"/>
+  <unicode hex="0139"/>
+  <note>
+Lacute
+</note>
+  <outline>
+    <component base="L"/>
+    <component base="acutecomb.case" xOffset="-171" yOffset="223" identifier="09E0DE88"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:44:07 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>L</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>09E0DE88</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb.case" format="2">
+  <advance width="1120"/>
+  <anchor x="492" y="1300" name="_top"/>
+  <anchor x="492" y="1681" name="top"/>
+  <outline>
+    <component base="circumflexcomb" xOffset="71" yOffset="199" identifier="B628FB67"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-23 13:17:37 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>B628FB67</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

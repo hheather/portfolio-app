@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb" format="2">
+  <advance width="934"/>
+  <unicode hex="0308"/>
+  <guideline x="252" y="1325" angle="90"/>
+  <anchor x="527" y="1005" name="_top"/>
+  <anchor x="527" y="1419" name="top"/>
+  <outline>
+    <component base="dotaccentcomb" xOffset="94" yOffset="-85"/>
+    <component base="dotaccentcomb" xOffset="427" yOffset="-85" identifier="F55C2D1F"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 12:12:53 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>F55C2D1F</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

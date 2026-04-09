@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uacute" format="2">
+  <advance width="926"/>
+  <unicode hex="00FA"/>
+  <note>
+uacute
+</note>
+  <guideline x="335" y="1038" angle="0"/>
+  <outline>
+    <component base="u"/>
+    <component base="acutecomb" xOffset="973" yOffset="50" identifier="C8FADA8D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:09:02 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>u-1</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>C8FADA8D</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

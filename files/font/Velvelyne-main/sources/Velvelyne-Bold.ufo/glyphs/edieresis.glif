@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="edieresis" format="2">
+  <advance width="995"/>
+  <unicode hex="00EB"/>
+  <note>
+edieresis
+</note>
+  <outline>
+    <component base="e"/>
+    <component base="dieresiscomb" xOffset="-6" yOffset="-29"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:50:51 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+    </dict>
+  </lib>
+</glyph>

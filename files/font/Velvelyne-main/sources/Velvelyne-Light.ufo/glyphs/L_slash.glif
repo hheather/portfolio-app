@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="1027"/>
+  <unicode hex="0141"/>
+  <note>
+Lslash
+</note>
+  <outline>
+    <component base="L" xOffset="130"/>
+    <contour>
+      <point x="679" y="832" type="move"/>
+      <point x="208" y="531" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 15:53:56 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>L</string>
+    </dict>
+  </lib>
+</glyph>

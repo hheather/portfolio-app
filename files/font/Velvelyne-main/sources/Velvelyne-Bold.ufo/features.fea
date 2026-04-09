@@ -1,0 +1,412 @@
+# automatic
+@Uppercase = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Saltillo uni021A Lcommaaccent.loclMAH Ncommaaccent.loclMAH A_U_L_A E_T F_E_H_O G_U_E O_Idieresis_N_E P_E S_L U_X_L_E_S X_L_L_E_S ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn MAH;
+languagesystem latn CAT;
+languagesystem latn NLD;
+
+feature aalt {
+# automatic
+feature locl;
+feature ordn;
+feature case;
+feature sups;
+feature frac;
+} aalt;
+
+feature liga {
+lookup ligaturesstandards{
+lookupflag IgnoreMarks;
+sub f i by fi;
+sub f l by fl;
+
+} ligaturesstandards;
+
+	sub period period by periodcentered;
+	sub periodcentered' @Uppercase by periodcentered.case;
+	sub period period period by ellipsis;
+	sub periodcentered period by ellipsis;
+	sub periodcentered.case period by ellipsis;
+
+lookup macron {
+    sub e' r periodcentered by emacron;
+    sub egrave' r periodcentered by emacron;
+    sub E' R periodcentered.case by Emacron;
+    sub Egrave' R periodcentered.case by Emacron;
+	sub e' c periodcentered h by emacron;
+	sub egrave' c periodcentered h by emacron;
+	sub E' C periodcentered.case H by Emacron;
+	sub Egrave' C periodcentered.case H by Emacron;
+	sub eacute' t e periodcentered s s by emacron;
+	sub egrave' t e periodcentered s s by emacron;
+	sub Eacute' T E periodcentered.case S S by Emacron;
+	sub Egrave' T E periodcentered.case S S by Emacron;
+	sub e' t periodcentered e by emacron;
+	sub egrave' t periodcentered e by emacron;
+	sub E' T periodcentered.case E by Emacron;
+	sub Egrave' T periodcentered.case E by Emacron;
+    } macron;
+
+lookup ligaturesinclusives{
+	sub A periodcentered.case E by A_E;
+	sub A periodcentered.case O by A_O;
+	sub Aacute U periodcentered.case L A by A_U_L_A;
+	sub Aacute periodcentered.case U space L A by A_U_L_A;
+	sub C periodcentered.case H E by C_H_E;
+	sub C periodcentered.case Q U E by C_Q_U_E;
+	sub D periodcentered.case E by D_E;
+	sub D U periodcentered.case D E space L A by D_U_D_E_L_A;
+	sub Eacute periodcentered.case A by Eacute_E;
+	sub E periodcentered.case A by E_A;
+	sub E periodcentered.case S by E_S;
+	sub Eacute periodcentered.case E by Eacute_E;
+	sub E periodcentered.case S S E by E_S_S_E;
+	sub E periodcentered.case T by E_T;
+	sub E periodcentered.case T T E by E_T_T_E;
+	sub E periodcentered.case U by E_U;
+	sub E U R periodcentered.case I C E by E_U_R_I_C_E;
+	sub F periodcentered.case F E by F_F_E;
+	sub F periodcentered.case V E by F_V_E;
+	sub G periodcentered.case U E by G_U_E;
+	sub F E periodcentered.case H O by F_E_H_O;
+	sub L periodcentered.case E by L_E;
+	sub L periodcentered.case L E by L_L_E;
+	sub L periodcentered.case U by L_U;
+	sub M periodcentered.case P by M_P;
+	sub N periodcentered.case E by N_E;
+	sub N periodcentered.case N E by N_N_E;
+	sub O periodcentered.case Idieresis N by O_Idieresis_N_E;
+	sub O periodcentered.case I N by O_Idieresis_N_E;
+	sub O periodcentered.case T E by O_T_E;
+	sub P periodcentered.case M by P_M;
+	sub P periodcentered.case E by P_E;
+	sub R periodcentered.case E by R_E;
+	sub R periodcentered.case S E by R_S_E;
+	sub S periodcentered.case E by S_E;
+	sub S periodcentered.case C E by S_C_E;
+	sub S periodcentered.case L by S_L;
+	sub S periodcentered.case S E by S_S_E;
+	sub S periodcentered.case T E by S_T_E;
+	sub T periodcentered.case E by T_E;
+	sub T periodcentered.case T E by T_T_E;
+	sub U periodcentered.case E by U_E;
+	sub U periodcentered.case L L by U_L_L_E;
+	sub X periodcentered.case C E by X_C_E;
+	sub X periodcentered.case L L E S by X_L_L_E_S;
+	sub U X periodcentered.case L E S by U_X_L_E_S;
+	sub X periodcentered.case S by X_S_E;
+	sub I periodcentered.case E by I_E;
+	sub a periodcentered e by a_e;
+	sub a periodcentered o by a_o;
+	sub a u periodcentered agrave space l a by a_u_l_a;
+	sub agrave space l a periodcentered a u by a_u_l_a;
+	sub c periodcentered h e by c_h_e;
+	sub c periodcentered q u e by c_q_u_e;
+	sub d periodcentered e by d_e;
+	sub d u periodcentered d e space l a by d_u_d_e_l_a;
+	sub d e space l a periodcentered d u by d_u_d_e_l_a;
+	sub e periodcentered a by e_a;
+	sub eacute_e periodcentered a by eacute_e;
+	sub e periodcentered s s e by e_s_s_e;
+	sub e periodcentered t by e_t;
+	sub e t periodcentered t e by e_t_t_e;
+	sub e periodcentered u by e_u;
+	sub e u r periodcentered i c e by e_u_r_i_c_e;
+	sub eacute periodcentered e by eacute_e;
+	sub f periodcentered f e by f_f_e;
+	sub f periodcentered v e by f_v_e;
+	sub g periodcentered u e by g_u_e;
+	sub f e periodcentered h o by f_e_h_o;
+	sub i periodcentered e by i_e;
+	sub l periodcentered e by l_e;
+	sub l periodcentered l e by l_l_e;
+	sub l periodcentered u by l_u;
+	sub m periodcentered p by m_p;
+	sub n periodcentered e by n_e;
+	sub n periodcentered n e by n_n_e;
+	sub o periodcentered i n e by o_idieresis_n_e;
+	sub o periodcentered idieresis n e by o_idieresis_n_e;
+	sub o periodcentered t e by o_t_e;
+	sub p periodcentered m by p_m;
+	sub p periodcentered e by p_e;
+	sub r periodcentered e by r_e;
+	sub r periodcentered s e by r_s_e;
+	sub s periodcentered c e by s_c_e;
+	sub s periodcentered e by s_e;
+	sub s periodcentered l e by s_l;
+	sub s periodcentered s e by s_s_e;
+	sub s periodcentered t e by s_t_e;
+	sub t periodcentered e by t_e;
+	sub t periodcentered t e by t_t_e;
+	sub u periodcentered e by u_e;
+	sub u periodcentered l l e by u_l_l_e;
+	sub x periodcentered c e by x_c_e;
+	sub x periodcentered l l e s by x_l_l_e_s;
+	sub u x periodcentered l e s by u_x_l_e_s;
+	sub x periodcentered s e by x_s_e;
+}ligaturesinclusives;
+} liga;
+
+feature ccmp {
+# automatic
+lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	lookupflag 0;
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+} ccmp;
+
+feature locl {
+# automatic
+script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language MAH;
+lookup locl_latn_2 {
+	sub Lcommaaccent by Lcommaaccent.loclMAH;
+	sub Ncommaaccent by Ncommaaccent.loclMAH;
+	sub lcommaaccent by lcommaaccent.loclMAH;
+	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
+} locl_latn_2;
+
+script latn;
+language CAT;
+lookup locl_latn_3 {
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_3;
+
+script latn;
+language NLD;
+lookup locl_latn_4 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_4;
+} locl;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+} ordn;
+
+feature case {
+# automatic
+sub periodcentered by periodcentered.case;
+sub dieresiscomb by dieresiscomb.case;
+sub dotaccentcomb by dotaccentcomb.case;
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub hungarumlautcomb by hungarumlautcomb.case;
+sub circumflexcomb by circumflexcomb.case;
+sub caroncomb by caroncomb.case;
+sub brevecomb by brevecomb.case;
+sub ringcomb by ringcomb.case;
+sub tildecomb by tildecomb.case;
+sub macroncomb by macroncomb.case;
+} case;
+
+feature dlig {
+	sub period period by periodcentered;
+	sub periodcentered' @Uppercase by periodcentered.case;
+	sub period period period by ellipsis;
+	sub periodcentered period by ellipsis;
+	sub periodcentered.case period by ellipsis;
+
+lookup macron2 {
+    sub e' r periodcentered by emacron;
+    sub egrave' r periodcentered by emacron;
+    sub E' R periodcentered.case by Emacron;
+    sub Egrave' R periodcentered.case by Emacron;
+	sub e' c periodcentered h by emacron;
+	sub egrave' c periodcentered h by emacron;
+	sub E' C periodcentered.case H by Emacron;
+	sub Egrave' C periodcentered.case H by Emacron;
+	sub eacute' t e periodcentered s s by emacron;
+	sub egrave' t e periodcentered s s by emacron;
+	sub Eacute' T E periodcentered.case S S by Emacron;
+	sub Egrave' T E periodcentered.case S S by Emacron;
+	sub e' t periodcentered e by emacron;
+	sub egrave' t periodcentered e by emacron;
+	sub E' T periodcentered.case E by Emacron;
+	sub Egrave' T periodcentered.case E by Emacron;
+    } macron2;
+
+lookup ligaturesinclusives2{
+	sub A periodcentered.case E by A_E;
+	sub A periodcentered.case O by A_O;
+	sub Aacute U periodcentered.case L A by A_U_L_A;
+	sub Aacute periodcentered.case U space L A by A_U_L_A;
+	sub C periodcentered.case H E by C_H_E;
+	sub C periodcentered.case Q U E by C_Q_U_E;
+	sub D periodcentered.case E by D_E;
+	sub D U periodcentered.case D E space L A by D_U_D_E_L_A;
+	sub Eacute periodcentered.case A by Eacute_E;
+	sub E periodcentered.case A by E_A;
+	sub E periodcentered.case S by E_S;
+	sub Eacute periodcentered.case E by Eacute_E;
+	sub E periodcentered.case S S E by E_S_S_E;
+	sub E periodcentered.case T by E_T;
+	sub E periodcentered.case T T E by E_T_T_E;
+	sub E periodcentered.case U by E_U;
+	sub E U R periodcentered.case I C E by E_U_R_I_C_E;
+	sub F periodcentered.case F E by F_F_E;
+	sub F periodcentered.case V E by F_V_E;
+	sub G periodcentered.case U E by G_U_E;
+	sub F E periodcentered.case H O by F_E_H_O;
+	sub L periodcentered.case E by L_E;
+	sub L periodcentered.case L E by L_L_E;
+	sub L periodcentered.case U by L_U;
+	sub M periodcentered.case P by M_P;
+	sub N periodcentered.case E by N_E;
+	sub N periodcentered.case N E by N_N_E;
+	sub O periodcentered.case Idieresis N by O_Idieresis_N_E;
+	sub O periodcentered.case I N by O_Idieresis_N_E;
+	sub O periodcentered.case T E by O_T_E;
+	sub P periodcentered.case M by P_M;
+	sub P periodcentered.case E by P_E;
+	sub R periodcentered.case E by R_E;
+	sub R periodcentered.case S E by R_S_E;
+	sub S periodcentered.case E by S_E;
+	sub S periodcentered.case C E by S_C_E;
+	sub S periodcentered.case L by S_L;
+	sub S periodcentered.case S E by S_S_E;
+	sub S periodcentered.case T E by S_T_E;
+	sub T periodcentered.case E by T_E;
+	sub T periodcentered.case T E by T_T_E;
+	sub U periodcentered.case E by U_E;
+	sub U periodcentered.case L L by U_L_L_E;
+	sub X periodcentered.case C E by X_C_E;
+	sub X periodcentered.case L L E S by X_L_L_E_S;
+	sub U X periodcentered.case L E S by U_X_L_E_S;
+	sub X periodcentered.case S by X_S_E;
+	sub I periodcentered.case E by I_E;
+	sub a periodcentered e by a_e;
+	sub a periodcentered o by a_o;
+	sub a u periodcentered agrave space l a by a_u_l_a;
+	sub agrave space l a periodcentered a u by a_u_l_a;
+	sub c periodcentered h e by c_h_e;
+	sub c periodcentered q u e by c_q_u_e;
+	sub d periodcentered e by d_e;
+	sub d u periodcentered d e space l a by d_u_d_e_l_a;
+	sub d e space l a periodcentered d u by d_u_d_e_l_a;
+	sub e periodcentered a by e_a;
+	sub eacute_e periodcentered a by eacute_e;
+	sub e periodcentered s s e by e_s_s_e;
+	sub e periodcentered t by e_t;
+	sub e t periodcentered t e by e_t_t_e;
+	sub e periodcentered u by e_u;
+	sub e u r periodcentered i c e by e_u_r_i_c_e;
+	sub eacute periodcentered e by eacute_e;
+	sub f periodcentered f e by f_f_e;
+	sub f periodcentered v e by f_v_e;
+	sub g periodcentered u e by g_u_e;
+	sub f e periodcentered h o by f_e_h_o;
+	sub i periodcentered e by i_e;
+	sub l periodcentered e by l_e;
+	sub l periodcentered l e by l_l_e;
+	sub l periodcentered u by l_u;
+	sub m periodcentered p by m_p;
+	sub n periodcentered e by n_e;
+	sub n periodcentered n e by n_n_e;
+	sub o periodcentered i n e by o_idieresis_n_e;
+	sub o periodcentered idieresis n e by o_idieresis_n_e;
+	sub o periodcentered t e by o_t_e;
+	sub p periodcentered m by p_m;
+	sub p periodcentered e by p_e;
+	sub r periodcentered e by r_e;
+	sub r periodcentered s e by r_s_e;
+	sub s periodcentered c e by s_c_e;
+	sub s periodcentered e by s_e;
+	sub s periodcentered l e by s_l;
+	sub s periodcentered s e by s_s_e;
+	sub s periodcentered t e by s_t_e;
+	sub t periodcentered e by t_e;
+	sub t periodcentered t e by t_t_e;
+	sub u periodcentered e by u_e;
+	sub u periodcentered l l e by u_l_l_e;
+	sub x periodcentered c e by x_c_e;
+	sub x periodcentered l l e s by x_l_l_e_s;
+	sub u x periodcentered l e s by u_x_l_e_s;
+	sub x periodcentered s e by x_s_e;
+}ligaturesinclusives2;
+} dlig;
+
+feature sups {
+# automatic
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+} sups;
+
+feature frac {
+# automatic
+sub one slash eight by oneeighth;
+sub one slash four by onequarter;
+sub three slash eight by threeeighths;
+sub one slash two by onehalf;
+sub five slash eight by fiveeighths;
+sub three slash four by threequarters;
+sub seven slash eight by seveneighths;
+} frac;
+

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowup.001" format="2">
+  <advance width="1024"/>
+  <note>
+arrowup
+</note>
+  <outline>
+    <component base="_arrowfull" xOffset="-48" yOffset="1" identifier="9E6745D3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-19 13:41:49 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>9E6745D3</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos" format="2">
+  <advance width="550"/>
+  <unicode hex="0384"/>
+  <note>
+tonos
+</note>
+  <anchor x="232" y="1425" name="_top"/>
+  <outline>
+    <component base="acutecomb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-19 16:15:28 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

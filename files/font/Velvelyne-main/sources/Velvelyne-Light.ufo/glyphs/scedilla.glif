@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scedilla" format="2">
+  <advance width="846"/>
+  <unicode hex="015F"/>
+  <note>
+scedilla
+</note>
+  <outline>
+    <component base="s"/>
+    <component base="cedillacomb" xOffset="-232" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-23 13:17:10 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>s</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>s</string>
+    </dict>
+  </lib>
+</glyph>

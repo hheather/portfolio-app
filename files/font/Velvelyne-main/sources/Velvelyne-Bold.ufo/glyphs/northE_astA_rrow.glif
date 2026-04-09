@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="northEastArrow" format="2">
+  <advance width="2323"/>
+  <unicode hex="2197"/>
+  <note>
+arrowup
+</note>
+  <outline>
+    <contour>
+      <point x="220" y="177" type="move"/>
+      <point x="1009" y="59"/>
+      <point x="1572" y="403"/>
+      <point x="1972" y="1193" type="curve"/>
+    </contour>
+    <component base="_arrow" xScale="0.8911" xyScale="-0.5809" yScale="0.8911" yxScale="0.5809" xOffset="868" yOffset="596"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 11:04:50 +0000</string>
+    </dict>
+  </lib>
+</glyph>

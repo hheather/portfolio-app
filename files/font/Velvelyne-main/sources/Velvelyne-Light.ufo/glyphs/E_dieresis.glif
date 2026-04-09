@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edieresis" format="2">
+  <advance width="1101"/>
+  <unicode hex="00CB"/>
+  <note>
+Edieresis
+</note>
+  <guideline x="680" y="1397" angle="0"/>
+  <outline>
+    <component base="E"/>
+    <component base="dieresiscomb.case" xOffset="197" yOffset="-21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:22:54 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>E</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>E</string>
+    </dict>
+  </lib>
+</glyph>

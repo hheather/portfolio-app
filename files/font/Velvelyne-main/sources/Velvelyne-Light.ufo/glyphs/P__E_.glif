@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P_E" format="2">
+  <advance width="1782"/>
+  <guideline x="963" y="-196" angle="0"/>
+  <anchor x="446" y="0" name="bottom_1"/>
+  <anchor x="1337" y="0" name="bottom_2"/>
+  <anchor x="891.5" y="0" name="caret_1"/>
+  <anchor x="446" y="1292" name="top_1"/>
+  <anchor x="1337" y="1292" name="top_2"/>
+  <outline>
+    <contour identifier="ID0x158db4c00">
+      <point x="205" y="-253" type="move"/>
+      <point x="205" y="104" type="line" smooth="yes"/>
+      <point x="205" y="162"/>
+      <point x="238" y="201"/>
+      <point x="268" y="235" type="curve" smooth="yes"/>
+      <point x="291" y="262"/>
+      <point x="312" y="287"/>
+      <point x="312" y="316" type="curve" smooth="yes"/>
+      <point x="312" y="353"/>
+      <point x="278" y="387"/>
+      <point x="249" y="428" type="curve" smooth="yes"/>
+      <point x="226" y="460"/>
+      <point x="205" y="498"/>
+      <point x="205" y="545" type="curve" smooth="yes"/>
+      <point x="205" y="926" type="line" smooth="yes"/>
+      <point x="205" y="991"/>
+      <point x="228" y="1021"/>
+      <point x="301" y="1020" type="curve" smooth="yes"/>
+      <point x="586" y="1018" type="line" smooth="yes"/>
+      <point x="719" y="1017"/>
+      <point x="848" y="975"/>
+      <point x="903" y="841" type="curve"/>
+    </contour>
+    <component base="E" xOffset="681" identifier="3126DF27"/>
+    <contour>
+      <point x="904" y="521" type="move"/>
+      <point x="849" y="398"/>
+      <point x="719" y="320"/>
+      <point x="570" y="319" type="curve" smooth="yes"/>
+      <point x="326" y="318" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:14:04 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>P</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>3126DF27</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

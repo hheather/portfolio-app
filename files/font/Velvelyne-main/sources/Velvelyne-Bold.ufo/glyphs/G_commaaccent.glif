@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gcommaaccent" format="2">
+  <advance width="1343"/>
+  <unicode hex="0122"/>
+  <note>
+Gcommaaccent
+</note>
+  <outline>
+    <component base="G"/>
+    <component base="commaaccentcomb" xOffset="233"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:03:19 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>G</string>
+    </dict>
+  </lib>
+</glyph>

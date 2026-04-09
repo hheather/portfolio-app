@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ycircumflex" format="2">
+  <advance width="1101"/>
+  <unicode hex="0176"/>
+  <note>
+Ycircumflex
+</note>
+  <guideline x="485" y="1310" angle="0"/>
+  <guideline x="641" y="1693" angle="0"/>
+  <outline>
+    <component base="Y"/>
+    <component base="circumflexcomb.case" xOffset="59" yOffset="70" identifier="656BA1C0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 15:56:43 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Y</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Y</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>656BA1C0</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

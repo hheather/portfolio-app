@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="c_q_u_e" format="2">
+  <advance width="3071"/>
+  <unicode hex="F1560"/>
+  <outline>
+    <contour identifier="ID0x132aabd50">
+      <point x="675" y="1152" type="move"/>
+      <point x="657" y="1276"/>
+      <point x="579" y="1360"/>
+      <point x="437" y="1360" type="curve" smooth="yes"/>
+      <point x="290" y="1360"/>
+      <point x="155" y="1231"/>
+      <point x="155" y="899" type="curve" smooth="yes"/>
+      <point x="155" y="567"/>
+      <point x="263" y="401"/>
+      <point x="449" y="401" type="curve" smooth="yes"/>
+      <point x="603" y="401"/>
+      <point x="717" y="534"/>
+      <point x="737" y="638" type="curve" smooth="yes"/>
+    </contour>
+    <component base="q" xOffset="576"/>
+    <component base="u_e" xOffset="1372"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-14 09:40:00 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>c</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

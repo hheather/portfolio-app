@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii61248" format="2">
+  <advance width="2123"/>
+  <unicode hex="2105"/>
+  <note>
+afii61248
+</note>
+  <outline>
+    <component base="c" xOffset="10" yOffset="391" identifier="219A3D66"/>
+    <component base="slash" xScale="0.9985" xyScale="-0.0541" yScale="0.9985" yxScale="0.0541" xOffset="670" yOffset="48" identifier="E666CC21"/>
+    <component base="o" xOffset="1173" yOffset="-89" identifier="87E27BA9"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:28:19 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>219A3D66</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>87E27BA9</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>E666CC21</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

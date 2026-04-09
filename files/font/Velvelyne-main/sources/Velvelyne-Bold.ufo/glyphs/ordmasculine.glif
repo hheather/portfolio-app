@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordmasculine" format="2">
+  <advance width="761"/>
+  <unicode hex="00BA"/>
+  <note>
+ordmasculine
+</note>
+  <anchor x="381" y="832" name="bottom"/>
+  <anchor x="381" y="1104" name="center"/>
+  <anchor x="608" y="837" name="ogonek"/>
+  <anchor x="384" y="1359" name="top"/>
+  <anchor x="654" y="1375" name="topright"/>
+  <outline>
+    <contour identifier="ID0x126c41fc0">
+      <point x="384" y="873" type="curve" smooth="yes"/>
+      <point x="486" y="873"/>
+      <point x="551" y="968"/>
+      <point x="551" y="1104" type="curve" smooth="yes"/>
+      <point x="551" y="1236"/>
+      <point x="488" y="1332"/>
+      <point x="384" y="1332" type="curve" smooth="yes"/>
+      <point x="279" y="1332"/>
+      <point x="210" y="1238"/>
+      <point x="210" y="1104" type="curve" smooth="yes"/>
+      <point x="210" y="986"/>
+      <point x="269" y="873"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:07:13 +0000</string>
+    </dict>
+  </lib>
+</glyph>

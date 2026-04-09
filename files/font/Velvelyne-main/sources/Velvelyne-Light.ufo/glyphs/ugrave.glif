@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ugrave" format="2">
+  <advance width="926"/>
+  <unicode hex="00F9"/>
+  <note>
+ugrave
+</note>
+  <guideline x="347" y="1038" angle="0"/>
+  <outline>
+    <component base="u"/>
+    <component base="gravecomb" yOffset="11"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-12 23:47:41 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>u</string>
+    </dict>
+  </lib>
+</glyph>

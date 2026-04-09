@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O_Idieresis_N_E" format="2">
+  <advance width="4071"/>
+  <anchor x="509" y="0" name="bottom_1"/>
+  <anchor x="1527" y="0" name="bottom_2"/>
+  <anchor x="2545" y="0" name="bottom_3"/>
+  <anchor x="3563" y="0" name="bottom_4"/>
+  <anchor x="1018" y="0" name="caret_1"/>
+  <anchor x="2036" y="0" name="caret_2"/>
+  <anchor x="3054" y="0" name="caret_3"/>
+  <anchor x="509" y="650" name="center_1"/>
+  <anchor x="1527" y="650" name="center_2"/>
+  <anchor x="2545" y="650" name="center_3"/>
+  <anchor x="3563" y="650" name="center_4"/>
+  <anchor x="509" y="10" name="ogonek_1"/>
+  <anchor x="1527" y="10" name="ogonek_2"/>
+  <anchor x="2545" y="10" name="ogonek_3"/>
+  <anchor x="3563" y="10" name="ogonek_4"/>
+  <anchor x="509" y="1300" name="top_1"/>
+  <anchor x="1527" y="1300" name="top_2"/>
+  <anchor x="2545" y="1300" name="top_3"/>
+  <anchor x="3563" y="1300" name="top_4"/>
+  <anchor x="20" y="1300" name="topleft_1"/>
+  <anchor x="20" y="1300" name="topleft_2"/>
+  <anchor x="20" y="1300" name="topleft_3"/>
+  <anchor x="20" y="1300" name="topleft_4"/>
+  <anchor x="4052" y="1300" name="topright_1"/>
+  <anchor x="4052" y="1300" name="topright_2"/>
+  <anchor x="4052" y="1300" name="topright_3"/>
+  <anchor x="4052" y="1300" name="topright_4"/>
+  <outline>
+    <contour identifier="ID0x7fcfe54b3570">
+      <point x="1502" y="1275" type="move"/>
+      <point x="1502" y="126" type="line" smooth="yes"/>
+      <point x="1502" y="-56"/>
+      <point x="1618" y="-137"/>
+      <point x="1755" y="-137" type="curve" smooth="yes"/>
+      <point x="1894" y="-137"/>
+      <point x="2008" y="-56"/>
+      <point x="2008" y="126" type="curve" smooth="yes"/>
+      <point x="2008" y="1044" type="line" smooth="yes"/>
+      <point x="2008" y="1168"/>
+      <point x="2106" y="1196"/>
+      <point x="2177" y="1076" type="curve" smooth="yes"/>
+      <point x="2663" y="253" type="line" smooth="yes"/>
+      <point x="2720" y="157"/>
+      <point x="2806" y="149"/>
+      <point x="2806" y="301" type="curve" smooth="yes"/>
+      <point x="2806" y="806" type="line" smooth="yes"/>
+      <point x="2806" y="997"/>
+      <point x="2927" y="1052"/>
+      <point x="3072" y="1022" type="curve"/>
+    </contour>
+    <contour identifier="ID0x7fcffbf84890">
+      <point x="2024" y="1294" type="move"/>
+      <point x="2062" y="1168" type="line"/>
+    </contour>
+    <contour>
+      <point x="2762" y="182" type="move"/>
+      <point x="2817" y="4" type="line"/>
+    </contour>
+    <component base="O"/>
+    <contour identifier="ID0x7f88ab8f60b0">
+      <point x="3889" y="1275" type="move"/>
+      <point x="3251" y="1275" type="line" smooth="yes"/>
+      <point x="3198" y="1275"/>
+      <point x="3173" y="1251"/>
+      <point x="3173" y="1185" type="curve" smooth="yes"/>
+      <point x="3173" y="1147"/>
+      <point x="3159" y="1122"/>
+      <point x="3142" y="1103" type="curve" smooth="yes"/>
+      <point x="3117" y="1075"/>
+      <point x="3085" y="1057"/>
+      <point x="3085" y="1021" type="curve" smooth="yes"/>
+      <point x="3085" y="998"/>
+      <point x="3105" y="979"/>
+      <point x="3127" y="962" type="curve" smooth="yes"/>
+      <point x="3149" y="945"/>
+      <point x="3176" y="929"/>
+      <point x="3190" y="901" type="curve" smooth="yes"/>
+      <point x="3205" y="869"/>
+      <point x="3204" y="811"/>
+      <point x="3226" y="773" type="curve" smooth="yes"/>
+      <point x="3250" y="732"/>
+      <point x="3285" y="704"/>
+      <point x="3285" y="668" type="curve" smooth="yes"/>
+      <point x="3285" y="632"/>
+      <point x="3254" y="608"/>
+      <point x="3226" y="573" type="curve" smooth="yes"/>
+      <point x="3200" y="539"/>
+      <point x="3175" y="497"/>
+      <point x="3175" y="428" type="curve" smooth="yes"/>
+      <point x="3175" y="119" type="line" smooth="yes"/>
+      <point x="3175" y="58"/>
+      <point x="3198" y="25"/>
+      <point x="3254" y="25" type="curve" smooth="yes"/>
+      <point x="3930" y="25" type="line"/>
+    </contour>
+    <contour>
+      <point x="3292" y="668" type="move"/>
+      <point x="3828" y="668" type="line"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="1118"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-20 13:28:50 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

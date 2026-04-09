@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n_e" format="2">
+  <advance width="1910"/>
+  <unicode hex="F3720"/>
+  <outline>
+    <component base="_fut2" xOffset="102" yOffset="200" identifier="AFC686CD"/>
+    <contour identifier="ID0x7fc43896d8f0">
+      <point x="1210" y="560" type="move"/>
+      <point x="1286" y="665"/>
+      <point x="1395" y="671"/>
+      <point x="1435" y="671" type="curve" smooth="yes"/>
+      <point x="1631" y="671"/>
+      <point x="1713" y="516"/>
+      <point x="1724" y="419" type="curve" smooth="yes"/>
+      <point x="1737" y="295"/>
+      <point x="1661" y="266"/>
+      <point x="1547" y="266" type="curve" smooth="yes"/>
+      <point x="1194" y="265" type="line" smooth="yes"/>
+      <point x="905" y="264"/>
+      <point x="795" y="374"/>
+      <point x="795" y="616" type="curve" smooth="yes"/>
+      <point x="795" y="813" type="line" smooth="yes"/>
+      <point x="795" y="992"/>
+      <point x="751" y="1119"/>
+      <point x="588" y="1119" type="curve" smooth="yes"/>
+      <point x="447" y="1119"/>
+      <point x="396" y="1015"/>
+      <point x="299" y="953" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1173" y="265" type="move"/>
+      <point x="1170" y="236"/>
+      <point x="1162" y="207"/>
+      <point x="1153" y="178" type="curve" smooth="yes"/>
+      <point x="1139" y="135"/>
+      <point x="1124" y="90"/>
+      <point x="1130" y="42" type="curve" smooth="yes"/>
+      <point x="1148" y="-96"/>
+      <point x="1272" y="-194"/>
+      <point x="1429" y="-194" type="curve" smooth="yes"/>
+      <point x="1521" y="-194"/>
+      <point x="1599" y="-152"/>
+      <point x="1652" y="-77" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-14 09:39:01 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>AFC686CD</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb" format="2">
+  <advance width="559"/>
+  <unicode hex="030A"/>
+  <anchor x="219" y="1105" name="_top"/>
+  <anchor x="219" y="1560" name="top"/>
+  <outline>
+    <contour>
+      <point x="221" y="1502" type="curve" smooth="yes"/>
+      <point x="284" y="1502"/>
+      <point x="326" y="1447"/>
+      <point x="326" y="1381" type="curve" smooth="yes"/>
+      <point x="326" y="1314"/>
+      <point x="284" y="1261"/>
+      <point x="217" y="1261" type="curve" smooth="yes"/>
+      <point x="154" y="1261"/>
+      <point x="111" y="1314"/>
+      <point x="111" y="1381" type="curve" smooth="yes"/>
+      <point x="111" y="1447"/>
+      <point x="154" y="1502"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:13:15 +0000</string>
+    </dict>
+  </lib>
+</glyph>

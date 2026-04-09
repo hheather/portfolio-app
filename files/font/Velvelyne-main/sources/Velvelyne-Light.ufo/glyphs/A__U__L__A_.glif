@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="A_U_L_A" format="2">
+  <advance width="4058"/>
+  <anchor x="500" y="0" name="bottom_1"/>
+  <anchor x="1499" y="0" name="bottom_2"/>
+  <anchor x="2499" y="0" name="bottom_3"/>
+  <anchor x="3498" y="0" name="bottom_4"/>
+  <anchor x="999.5" y="0" name="caret_1"/>
+  <anchor x="1999" y="0" name="caret_2"/>
+  <anchor x="2998.5" y="0" name="caret_3"/>
+  <anchor x="500" y="10" name="ogonek_1"/>
+  <anchor x="1499" y="10" name="ogonek_2"/>
+  <anchor x="2499" y="10" name="ogonek_3"/>
+  <anchor x="3498" y="10" name="ogonek_4"/>
+  <anchor x="500" y="1292" name="top_1"/>
+  <anchor x="1499" y="1292" name="top_2"/>
+  <anchor x="2499" y="1292" name="top_3"/>
+  <anchor x="3498" y="1292" name="top_4"/>
+  <outline>
+    <contour identifier="ID0x7f88ab0da030">
+      <point x="1819" y="887" type="move"/>
+      <point x="1819" y="124" type="line" smooth="yes"/>
+      <point x="1819" y="-174"/>
+      <point x="1701" y="-376"/>
+      <point x="1437" y="-373" type="curve" smooth="yes"/>
+      <point x="1155" y="-370"/>
+      <point x="1086" y="-160"/>
+      <point x="1001" y="125" type="curve" smooth="yes"/>
+    </contour>
+    <component base="L" xOffset="2173" yOffset="108"/>
+    <component base="A" xOffset="2890" yOffset="-298"/>
+    <component base="Agrave"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:37:52 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>A</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

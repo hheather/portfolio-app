@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cdotaccent" format="2">
+  <advance width="893"/>
+  <unicode hex="010B"/>
+  <note>
+cdotaccent
+</note>
+  <outline>
+    <component base="c"/>
+    <component base="dotaccentcomb" xOffset="232" yOffset="-62"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:41:51 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>c</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>c</string>
+    </dict>
+  </lib>
+</glyph>

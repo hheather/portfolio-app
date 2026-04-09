@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="559"/>
+  <unicode hex="02C7"/>
+  <note>
+caron
+</note>
+  <outline>
+    <component base="circumflexcomb" yScale="-1" xOffset="-130" yOffset="2478"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-20 12:41:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

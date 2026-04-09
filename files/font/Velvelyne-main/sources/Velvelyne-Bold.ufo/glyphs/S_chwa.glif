@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Schwa" format="2">
+  <advance width="1116"/>
+  <unicode hex="018F"/>
+  <anchor x="554" y="0" name="bottom"/>
+  <anchor x="554" y="1320" name="top"/>
+  <outline>
+    <component base="E" xScale="-1" xOffset="1116"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:16:42 +0000</string>
+    </dict>
+  </lib>
+</glyph>

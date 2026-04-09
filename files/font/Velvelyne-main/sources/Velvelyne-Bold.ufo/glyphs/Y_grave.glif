@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ygrave" format="2">
+  <advance width="1101"/>
+  <unicode hex="1EF2"/>
+  <note>
+Ygrave
+</note>
+  <guideline x="485" y="1310" angle="0"/>
+  <guideline x="641" y="1693" angle="0"/>
+  <outline>
+    <component base="Y"/>
+    <component base="gravecomb.case" xOffset="42" yOffset="180" identifier="33AEA168"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 15:56:58 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Y</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Y</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>33AEA168</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

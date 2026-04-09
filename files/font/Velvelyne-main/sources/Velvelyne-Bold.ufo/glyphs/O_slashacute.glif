@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslashacute" format="2">
+  <advance width="1568"/>
+  <unicode hex="01FE"/>
+  <unicode hex="01FF"/>
+  <note>
+Oslashacute
+</note>
+  <outline>
+    <component base="Oslash"/>
+    <component base="acutecomb.case" xOffset="225" yOffset="53"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:31:11 +0000</string>
+    </dict>
+  </lib>
+</glyph>

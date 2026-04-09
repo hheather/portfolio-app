@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="D_E" format="2">
+  <advance width="1909"/>
+  <unicode hex="F1610"/>
+  <anchor x="10" y="0" name="bottom_1"/>
+  <anchor x="10" y="0" name="bottom_2"/>
+  <anchor x="955" y="0" name="caret_1"/>
+  <anchor x="10" y="0" name="center_1"/>
+  <anchor x="10" y="0" name="center_2"/>
+  <anchor x="10" y="0" name="top_1"/>
+  <anchor x="10" y="0" name="top_2"/>
+  <outline>
+    <component base="E" xOffset="793" yOffset="4" identifier="AE33F03C"/>
+    <contour identifier="ID0x7f88ab77d1b0">
+      <point x="1076" y="529" type="move"/>
+      <point x="1011" y="312"/>
+      <point x="840" y="124"/>
+      <point x="567" y="117" type="curve" smooth="yes"/>
+      <point x="422" y="114" type="line" smooth="yes"/>
+      <point x="264" y="110"/>
+      <point x="240" y="132"/>
+      <point x="240" y="309" type="curve" smooth="yes"/>
+      <point x="240" y="1044" type="line" smooth="yes"/>
+      <point x="240" y="1191"/>
+      <point x="267" y="1217"/>
+      <point x="408" y="1212" type="curve" smooth="yes"/>
+      <point x="593" y="1206" type="line" smooth="yes"/>
+      <point x="827" y="1198"/>
+      <point x="1006" y="1086"/>
+      <point x="1059" y="846" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:14:04 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>D</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>AE33F03C</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

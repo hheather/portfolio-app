@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni021A" format="2">
+  <advance width="1067"/>
+  <unicode hex="021A"/>
+  <note>
+uni021A
+</note>
+  <outline>
+    <component base="T"/>
+    <component base="commaaccentcomb" xOffset="218"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:04:17 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>T</string>
+    </dict>
+  </lib>
+</glyph>

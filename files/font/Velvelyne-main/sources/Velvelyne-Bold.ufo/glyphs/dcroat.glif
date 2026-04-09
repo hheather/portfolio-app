@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat" format="2">
+  <advance width="1060"/>
+  <unicode hex="0111"/>
+  <note>
+dcroat
+</note>
+  <outline>
+    <component base="d"/>
+    <component base="macroncomb" xOffset="335" yOffset="-72" identifier="99C07FAF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-10 14:02:54 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>99C07FAF</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

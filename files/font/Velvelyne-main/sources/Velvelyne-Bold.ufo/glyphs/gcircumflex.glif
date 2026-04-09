@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gcircumflex" format="2">
+  <advance width="1040"/>
+  <unicode hex="011D"/>
+  <note>
+gcircumflex
+</note>
+  <outline>
+    <component base="g"/>
+    <component base="circumflexcomb" xOffset="71" yOffset="-38"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:50:45 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>g</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>g</string>
+    </dict>
+  </lib>
+</glyph>

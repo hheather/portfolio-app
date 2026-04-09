@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gcommaaccent" format="2">
+  <advance width="940"/>
+  <unicode hex="0123"/>
+  <note>
+gcommaaccent
+</note>
+  <outline>
+    <component base="g"/>
+    <component base="commaturnedabovecomb" xOffset="246" yOffset="-68" identifier="62853520"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:50:45 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>g</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>g</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>62853520</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

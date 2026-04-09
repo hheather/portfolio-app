@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oacute" format="2">
+  <advance width="1050"/>
+  <unicode hex="00F3"/>
+  <note>
+oacute
+</note>
+  <outline>
+    <component base="o"/>
+    <component base="acutecomb" xOffset="967" yOffset="-51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:09:56 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o</string>
+    </dict>
+  </lib>
+</glyph>

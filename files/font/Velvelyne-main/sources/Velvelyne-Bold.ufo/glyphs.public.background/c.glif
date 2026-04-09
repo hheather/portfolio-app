@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="c" format="2">
+  <advance width="893"/>
+  <unicode hex="0063"/>
+  <note>
+c
+</note>
+  <anchor x="468" y="50" name="bottom"/>
+  <anchor x="487" y="943" name="top"/>
+  <outline>
+    <contour>
+      <point x="690" y="786" type="move"/>
+      <point x="669" y="838"/>
+      <point x="597" y="916"/>
+      <point x="485" y="916" type="curve" smooth="yes"/>
+      <point x="336" y="916"/>
+      <point x="210" y="764"/>
+      <point x="210" y="525" type="curve" smooth="yes"/>
+      <point x="210" y="265"/>
+      <point x="340" y="103"/>
+      <point x="504" y="103" type="curve" smooth="yes"/>
+      <point x="623" y="103"/>
+      <point x="690" y="173"/>
+      <point x="723" y="240" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:42:45 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+    </dict>
+  </lib>
+</glyph>

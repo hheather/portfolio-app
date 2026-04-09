@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="h" format="2">
+  <advance width="1047"/>
+  <unicode hex="0068"/>
+  <note>
+h
+</note>
+  <anchor x="524" y="0" name="bottom"/>
+  <anchor x="267" y="1140" name="center"/>
+  <anchor x="524" y="1425" name="top"/>
+  <outline>
+    <contour identifier="ID0x7fc43b6e7b40">
+      <point x="250" y="100" type="move"/>
+      <point x="250" y="446" type="line" smooth="yes"/>
+      <point x="250" y="528"/>
+      <point x="264" y="581"/>
+      <point x="279" y="622" type="curve" smooth="yes"/>
+      <point x="296" y="667"/>
+      <point x="313" y="699"/>
+      <point x="313" y="743" type="curve" smooth="yes"/>
+      <point x="313" y="789"/>
+      <point x="295" y="820"/>
+      <point x="278" y="863" type="curve" smooth="yes"/>
+      <point x="264" y="900"/>
+      <point x="250" y="946"/>
+      <point x="250" y="1029" type="curve" smooth="yes"/>
+      <point x="250" y="1325" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="750" type="move"/>
+      <point x="354" y="845"/>
+      <point x="462" y="923"/>
+      <point x="578" y="923" type="curve" smooth="yes"/>
+      <point x="724" y="923"/>
+      <point x="807" y="805"/>
+      <point x="807" y="633" type="curve" smooth="yes"/>
+      <point x="807" y="100" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-28 10:29:48 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

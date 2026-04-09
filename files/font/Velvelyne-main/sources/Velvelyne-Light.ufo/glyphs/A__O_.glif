@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="A_O" format="2">
+  <advance width="1928"/>
+  <unicode hex="F1030"/>
+  <anchor x="0" y="0" name="bottom_1"/>
+  <anchor x="0" y="0" name="bottom_2"/>
+  <anchor x="964" y="0" name="caret_1"/>
+  <anchor x="0" y="0" name="ogonek_1"/>
+  <anchor x="0" y="0" name="ogonek_2"/>
+  <anchor x="0" y="0" name="top_1"/>
+  <anchor x="0" y="0" name="top_2"/>
+  <outline>
+    <component base="A" identifier="AF0AB8C3"/>
+    <contour identifier="ID0x7f88ab111cb0">
+      <point x="914" y="364" type="move"/>
+      <point x="1000" y="242"/>
+      <point x="1128" y="175"/>
+      <point x="1278" y="175" type="curve" smooth="yes"/>
+      <point x="1562" y="175"/>
+      <point x="1763" y="409"/>
+      <point x="1763" y="815" type="curve" smooth="yes"/>
+      <point x="1763" y="1223"/>
+      <point x="1590" y="1458"/>
+      <point x="1278" y="1458" type="curve" smooth="yes"/>
+      <point x="920" y="1458"/>
+      <point x="794" y="1147"/>
+      <point x="799" y="812" type="curve" smooth="yes"/>
+      <point x="799" y="785"/>
+      <point x="800" y="759"/>
+      <point x="802" y="732" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-19 16:15:28 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>O</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>AF0AB8C3</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O" format="2">
+  <advance width="1370"/>
+  <unicode hex="004F"/>
+  <note>
+O
+</note>
+  <anchor x="685" y="0" name="bottom"/>
+  <anchor x="685" y="650" name="center"/>
+  <anchor x="1233" y="10" name="ogonek"/>
+  <anchor x="685" y="1321" name="top"/>
+  <anchor x="20" y="1300" name="topleft"/>
+  <anchor x="1350" y="1300" name="topright"/>
+  <outline>
+    <contour>
+      <point x="685" y="75" type="curve" smooth="yes"/>
+      <point x="939" y="75"/>
+      <point x="1170" y="307"/>
+      <point x="1170" y="649" type="curve" smooth="yes"/>
+      <point x="1170" y="986"/>
+      <point x="978" y="1225"/>
+      <point x="685" y="1225" type="curve" smooth="yes"/>
+      <point x="399" y="1225"/>
+      <point x="200" y="980"/>
+      <point x="200" y="649" type="curve" smooth="yes"/>
+      <point x="200" y="321"/>
+      <point x="428" y="75"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:00:34 +0000</string>
+    </dict>
+  </lib>
+</glyph>

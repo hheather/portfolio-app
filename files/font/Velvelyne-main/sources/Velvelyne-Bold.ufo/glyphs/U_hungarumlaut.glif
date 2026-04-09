@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhungarumlaut" format="2">
+  <advance width="1249"/>
+  <unicode hex="0170"/>
+  <note>
+Uhungarumlaut
+</note>
+  <outline>
+    <component base="U"/>
+    <component base="hungarumlautcomb.case" xOffset="-11"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 15:56:31 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>U</string>
+    </dict>
+  </lib>
+</glyph>

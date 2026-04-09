@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="812"/>
+  <unicode hex="2021"/>
+  <note>
+daggerdbl
+</note>
+  <outline>
+    <contour>
+      <point x="406" y="1374" type="move"/>
+      <point x="406" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="125" y="1111" type="move"/>
+      <point x="687" y="1111" type="line"/>
+    </contour>
+    <contour>
+      <point x="125" y="682" type="move"/>
+      <point x="687" y="682" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:20:18 +0000</string>
+    </dict>
+  </lib>
+</glyph>

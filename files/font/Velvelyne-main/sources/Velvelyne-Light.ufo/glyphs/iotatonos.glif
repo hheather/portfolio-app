@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotatonos" format="2">
+  <advance width="467"/>
+  <unicode hex="03AF"/>
+  <note>
+iotatonos
+</note>
+  <outline>
+    <component base="iota"/>
+    <component base="tonos" xOffset="2" yOffset="-366"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-10 14:04:40 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

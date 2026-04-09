@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="372"/>
+  <unicode hex="0021"/>
+  <note>
+exclam
+</note>
+  <outline>
+    <contour>
+      <point x="189" y="1322" type="move"/>
+      <point x="189" y="380" type="line"/>
+    </contour>
+    <component base="dotaccentcomb" xOffset="42" yOffset="-1178"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-10 14:10:55 +0000</string>
+    </dict>
+  </lib>
+</glyph>

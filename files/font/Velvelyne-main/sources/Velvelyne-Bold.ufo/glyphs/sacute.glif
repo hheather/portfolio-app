@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sacute" format="2">
+  <advance width="929"/>
+  <unicode hex="015B"/>
+  <note>
+sacute
+</note>
+  <outline>
+    <component base="s"/>
+    <component base="acutecomb" xOffset="894" yOffset="-93"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:09:56 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>s</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>s</string>
+    </dict>
+  </lib>
+</glyph>

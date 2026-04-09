@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek" format="2">
+  <advance width="1068"/>
+  <unicode hex="0105"/>
+  <note>
+aogonek
+</note>
+  <outline>
+    <component base="a"/>
+    <component base="ogonekcomb" xOffset="-40" yOffset="60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:40:47 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>a</string>
+    </dict>
+  </lib>
+</glyph>

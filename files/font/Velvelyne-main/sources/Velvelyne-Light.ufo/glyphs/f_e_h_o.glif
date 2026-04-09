@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_e_h_o" format="2">
+  <advance width="2885"/>
+  <outline>
+    <contour identifier="ID0x7f88a65a8460">
+      <point x="1543" y="40" type="move"/>
+      <point x="1543" y="507" type="line" smooth="yes"/>
+      <point x="1543" y="589"/>
+      <point x="1557" y="642"/>
+      <point x="1572" y="683" type="curve" smooth="yes"/>
+      <point x="1589" y="728"/>
+      <point x="1606" y="760"/>
+      <point x="1606" y="804" type="curve" smooth="yes"/>
+      <point x="1606" y="850"/>
+      <point x="1588" y="881"/>
+      <point x="1571" y="924" type="curve" smooth="yes"/>
+      <point x="1557" y="961"/>
+      <point x="1543" y="1007"/>
+      <point x="1543" y="1090" type="curve" smooth="yes"/>
+      <point x="1543" y="1366" type="line"/>
+    </contour>
+    <contour>
+      <point x="1615" y="812" type="move"/>
+      <point x="1682" y="863"/>
+      <point x="1728" y="984"/>
+      <point x="1886" y="984" type="curve" smooth="yes"/>
+      <point x="2032" y="984"/>
+      <point x="2100" y="866"/>
+      <point x="2100" y="694" type="curve" smooth="yes"/>
+      <point x="2100" y="347" type="line"/>
+    </contour>
+    <component base="o" xOffset="1945" yOffset="-161" identifier="25EC6F48"/>
+    <contour identifier="ID0x7f88a65aae00">
+      <point x="279" y="-363" type="move"/>
+      <point x="279" y="-26"/>
+      <point x="279" y="311"/>
+      <point x="279" y="672" type="curve" smooth="yes"/>
+      <point x="279" y="869"/>
+      <point x="330" y="958"/>
+      <point x="504" y="958" type="curve" smooth="yes"/>
+      <point x="1149" y="958" type="line" smooth="yes"/>
+      <point x="1263" y="958"/>
+      <point x="1339" y="990"/>
+      <point x="1326" y="1128" type="curve" smooth="yes"/>
+      <point x="1315" y="1235"/>
+      <point x="1233" y="1409"/>
+      <point x="1037" y="1409" type="curve" smooth="yes"/>
+      <point x="895" y="1409"/>
+      <point x="803" y="1315"/>
+      <point x="779" y="1192" type="curve"/>
+    </contour>
+    <contour>
+      <point x="145" y="581" type="move"/>
+      <point x="455" y="581" type="line"/>
+    </contour>
+    <contour identifier="ID0x7f88aa7fb6a0">
+      <point x="775" y="957" type="move"/>
+      <point x="775" y="929"/>
+      <point x="759" y="897"/>
+      <point x="746" y="857" type="curve" smooth="yes"/>
+      <point x="734" y="821"/>
+      <point x="724" y="778"/>
+      <point x="730" y="725" type="curve" smooth="yes"/>
+      <point x="740" y="639"/>
+      <point x="777" y="567"/>
+      <point x="831" y="518" type="curve" smooth="yes"/>
+      <point x="884" y="470"/>
+      <point x="954" y="443"/>
+      <point x="1031" y="445" type="curve" smooth="yes"/>
+      <point x="1188" y="449"/>
+      <point x="1261" y="570"/>
+      <point x="1298" y="661" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-14 09:38:54 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>25EC6F48</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

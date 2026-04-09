@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M_P" format="2">
+  <advance width="2096"/>
+  <unicode hex="F3410"/>
+  <anchor x="0" y="0" name="bottom_1"/>
+  <anchor x="0" y="0" name="bottom_2"/>
+  <anchor x="1048" y="0" name="caret_1"/>
+  <anchor x="0" y="0" name="top_1"/>
+  <anchor x="0" y="0" name="top_2"/>
+  <outline>
+    <contour identifier="ID0x13aa58e70">
+      <point x="225" y="50" type="move"/>
+      <point x="225" y="1150" type="line" smooth="yes"/>
+      <point x="225" y="1328"/>
+      <point x="328" y="1326"/>
+      <point x="374" y="1178" type="curve" smooth="yes"/>
+      <point x="654" y="284" type="line" smooth="yes"/>
+      <point x="677" y="210"/>
+      <point x="744" y="213"/>
+      <point x="766" y="284" type="curve" smooth="yes"/>
+      <point x="1033" y="1134" type="line" smooth="yes"/>
+      <point x="1086" y="1302"/>
+      <point x="1232" y="1292"/>
+      <point x="1320" y="1291" type="curve" smooth="yes"/>
+      <point x="1406" y="1290" type="line"/>
+    </contour>
+    <contour>
+      <point x="711" y="224" type="move"/>
+      <point x="711" y="45" type="line"/>
+    </contour>
+    <component base="P" xOffset="1031" yOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:14:04 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>M</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>P</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

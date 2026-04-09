@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n" format="2">
+  <advance width="926"/>
+  <unicode hex="006E"/>
+  <note>
+n
+</note>
+  <anchor x="463" y="0" name="bottom"/>
+  <anchor x="463" y="1005" name="top"/>
+  <outline>
+    <contour identifier="ID0x7fc43b852950">
+      <point x="741" y="25" type="move"/>
+      <point x="741" y="599" type="line" smooth="yes"/>
+      <point x="741" y="834"/>
+      <point x="719" y="994"/>
+      <point x="531" y="994" type="curve" smooth="yes"/>
+      <point x="392" y="994"/>
+      <point x="344" y="881"/>
+      <point x="244" y="810" type="curve" smooth="yes"/>
+    </contour>
+    <component base="_fut2" xOffset="47" identifier="BC4ED777"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 13:43:30 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>BC4ED777</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

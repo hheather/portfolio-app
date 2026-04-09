@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="477"/>
+  <unicode hex="0069"/>
+  <note>
+i
+</note>
+  <anchor x="270" y="0" name="bottom"/>
+  <outline>
+    <component base="idotless" xOffset="20" identifier="8553567E"/>
+    <component base="dotaccentcomb" xOffset="-27" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-14 16:18:02 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>8553567E</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

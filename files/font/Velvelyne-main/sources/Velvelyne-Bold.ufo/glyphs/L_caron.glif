@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron" format="2">
+  <advance width="997"/>
+  <unicode hex="013D"/>
+  <note>
+Lcaron
+</note>
+  <outline>
+    <component base="L"/>
+    <component base="caroncomb.alt" xOffset="-191" yOffset="-125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-10 14:02:54 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>L</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>L</string>
+    </dict>
+  </lib>
+</glyph>

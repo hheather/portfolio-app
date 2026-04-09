@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_virgule" format="2">
+  <advance width="467"/>
+  <outline>
+    <contour identifier="ID0x7fc43ee1d950">
+      <point x="135" y="-284" type="move"/>
+      <point x="222" y="-217"/>
+      <point x="290" y="-110"/>
+      <point x="290" y="-6" type="curve" smooth="yes"/>
+      <point x="290" y="101"/>
+      <point x="228" y="175"/>
+      <point x="173" y="216" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:17:03 +0000</string>
+    </dict>
+  </lib>
+</glyph>

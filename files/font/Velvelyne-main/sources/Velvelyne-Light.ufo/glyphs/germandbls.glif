@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="germandbls" format="2">
+  <advance width="993"/>
+  <unicode hex="00DF"/>
+  <note>
+germandbls
+</note>
+  <anchor x="502" y="0" name="bottom"/>
+  <anchor x="502" y="1371" name="top"/>
+  <outline>
+    <contour>
+      <point x="205" y="23" type="move"/>
+      <point x="205" y="1013" type="line" smooth="yes"/>
+      <point x="205" y="1258"/>
+      <point x="328" y="1362"/>
+      <point x="510" y="1362" type="curve" smooth="yes"/>
+      <point x="648" y="1362"/>
+      <point x="772" y="1259"/>
+      <point x="772" y="1087" type="curve" smooth="yes"/>
+      <point x="772" y="1018"/>
+      <point x="746" y="964"/>
+      <point x="716" y="917" type="curve" smooth="yes"/>
+      <point x="670" y="848"/>
+      <point x="613" y="794"/>
+      <point x="613" y="733" type="curve" smooth="yes"/>
+      <point x="613" y="645"/>
+      <point x="698" y="586"/>
+      <point x="775" y="508" type="curve" smooth="yes"/>
+      <point x="841" y="442"/>
+      <point x="898" y="363"/>
+      <point x="898" y="242" type="curve" smooth="yes"/>
+      <point x="898" y="113"/>
+      <point x="810" y="-4"/>
+      <point x="664" y="-4" type="curve" smooth="yes"/>
+      <point x="583" y="-4"/>
+      <point x="522" y="15"/>
+      <point x="473" y="47" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-10 14:02:54 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccircumflex" format="2">
+  <advance width="827"/>
+  <unicode hex="0109"/>
+  <note>
+ccircumflex
+</note>
+  <outline>
+    <component base="c"/>
+    <component base="circumflexcomb" xOffset="28" identifier="7790D5BD"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:41:51 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>c</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>7790D5BD</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

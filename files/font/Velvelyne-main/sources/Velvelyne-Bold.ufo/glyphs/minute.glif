@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minute" format="2">
+  <advance width="445"/>
+  <unicode hex="2032"/>
+  <note>
+minute
+</note>
+  <outline>
+    <contour>
+      <point x="245" y="1341" type="move"/>
+      <point x="200" y="960" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-11 16:34:40 +0000</string>
+    </dict>
+  </lib>
+</glyph>

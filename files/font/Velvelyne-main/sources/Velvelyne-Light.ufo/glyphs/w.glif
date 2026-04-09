@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="w" format="2">
+  <advance width="1295"/>
+  <unicode hex="0077"/>
+  <note>
+w
+</note>
+  <anchor x="648" y="0" name="bottom"/>
+  <anchor x="648" y="1005" name="top"/>
+  <outline>
+    <contour>
+      <point x="130" y="985" type="move"/>
+      <point x="309" y="90" type="line" smooth="yes"/>
+      <point x="320" y="35"/>
+      <point x="345" y="8"/>
+      <point x="371" y="8" type="curve" smooth="yes"/>
+      <point x="396" y="8"/>
+      <point x="422" y="36"/>
+      <point x="434" y="94" type="curve" smooth="yes"/>
+      <point x="591" y="879" type="line" smooth="yes"/>
+      <point x="600" y="925"/>
+      <point x="620" y="952"/>
+      <point x="649" y="952" type="curve" smooth="yes"/>
+      <point x="679" y="952"/>
+      <point x="696" y="925"/>
+      <point x="705" y="879" type="curve" smooth="yes"/>
+      <point x="854" y="90" type="line" smooth="yes"/>
+      <point x="864" y="35"/>
+      <point x="889" y="8"/>
+      <point x="915" y="8" type="curve" smooth="yes"/>
+      <point x="941" y="8"/>
+      <point x="967" y="36"/>
+      <point x="979" y="94" type="curve" smooth="yes"/>
+      <point x="1165" y="983" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:48:49 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>v</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>v</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obreve" format="2">
+  <advance width="1050"/>
+  <unicode hex="014F"/>
+  <note>
+obreve
+</note>
+  <outline>
+    <component base="o"/>
+    <component base="brevecomb" xOffset="111" yOffset="-151"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 14:29:52 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o</string>
+    </dict>
+  </lib>
+</glyph>

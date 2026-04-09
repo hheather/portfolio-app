@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="faucilleetmarteau" format="2">
+  <advance width="1371"/>
+  <unicode hex="262D"/>
+  <guideline x="249" y="430" angle="53.6873"/>
+  <outline>
+    <contour>
+      <point x="173" y="562" type="move"/>
+      <point x="257" y="433"/>
+      <point x="409" y="358"/>
+      <point x="543" y="358" type="curve" smooth="yes"/>
+      <point x="831" y="358"/>
+      <point x="1036" y="558"/>
+      <point x="1036" y="842" type="curve" smooth="yes"/>
+      <point x="1036" y="1162"/>
+      <point x="774" y="1331"/>
+      <point x="563" y="1331" type="curve" smooth="yes"/>
+      <point x="455" y="1331"/>
+      <point x="349" y="1279"/>
+      <point x="294" y="1236" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="384" y="364" type="move"/>
+      <point x="125" y="10" type="line"/>
+    </contour>
+    <contour>
+      <point x="617" y="807" type="move"/>
+      <point x="1246" y="238" type="line"/>
+    </contour>
+    <contour>
+      <point x="485" y="676" type="move"/>
+      <point x="712" y="985" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-12 13:42:58 +0000</string>
+    </dict>
+  </lib>
+</glyph>

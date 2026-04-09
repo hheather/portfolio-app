@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anoteleia" format="2">
+  <advance width="292"/>
+  <unicode hex="0387"/>
+  <note>
+anoteleia
+</note>
+  <outline>
+    <component base="periodcentered"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-19 16:15:28 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

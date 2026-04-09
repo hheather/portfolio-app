@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb.alt" format="2">
+  <advance width="1200"/>
+  <anchor x="718" y="1425" name="_topright"/>
+  <outline>
+    <component base="comma" xOffset="669" yOffset="1286"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-20 13:13:17 +0000</string>
+    </dict>
+  </lib>
+</glyph>

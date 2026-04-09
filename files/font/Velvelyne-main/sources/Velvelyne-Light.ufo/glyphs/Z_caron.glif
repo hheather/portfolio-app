@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zcaron" format="2">
+  <advance width="1002"/>
+  <unicode hex="017D"/>
+  <note>
+Zcaron
+</note>
+  <outline>
+    <component base="Z"/>
+    <component base="caroncomb.case" xOffset="-125" yOffset="-23"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:24:14 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Z</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Z</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered" format="2">
+  <advance width="292"/>
+  <unicode hex="00B7"/>
+  <note>
+periodcentered
+</note>
+  <outline>
+    <component base="dotaccentcomb" xOffset="2" yOffset="-695"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:34:07 +0000</string>
+    </dict>
+  </lib>
+</glyph>

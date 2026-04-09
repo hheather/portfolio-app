@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ntilde" format="2">
+  <advance width="1219"/>
+  <unicode hex="00D1"/>
+  <note>
+Ntilde
+</note>
+  <outline>
+    <component base="N"/>
+    <component base="tildecomb.case" xOffset="99" yOffset="-8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 14:14:04 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>N</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>N</string>
+    </dict>
+  </lib>
+</glyph>

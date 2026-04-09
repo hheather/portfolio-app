@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="521"/>
+  <unicode hex="2018"/>
+  <note>
+quoteleft
+</note>
+  <outline>
+    <component base="_virgule" xScale="-1" xOffset="490" yOffset="1205" identifier="8984447A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-06-14 13:22:04 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>8984447A</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

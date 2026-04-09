@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equivalence" format="2">
+  <advance width="889"/>
+  <unicode hex="2261"/>
+  <note>
+equivalence
+</note>
+  <outline>
+    <contour>
+      <point x="160" y="1041" type="move"/>
+      <point x="715" y="1041" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="681" type="move"/>
+      <point x="715" y="681" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="321" type="move"/>
+      <point x="715" y="321" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:49:13 +0000</string>
+    </dict>
+  </lib>
+</glyph>

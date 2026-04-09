@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ydieresis" format="2">
+  <advance width="1051"/>
+  <unicode hex="0178"/>
+  <note>
+Ydieresis
+</note>
+  <outline>
+    <component base="Y"/>
+    <component base="dieresiscomb.case" xOffset="131" yOffset="-8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 15:56:43 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Y</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Y</string>
+    </dict>
+  </lib>
+</glyph>

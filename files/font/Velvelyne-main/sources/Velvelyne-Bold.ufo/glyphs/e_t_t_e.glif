@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e_t_t_e" format="2">
+  <advance width="3301"/>
+  <unicode hex="F1980"/>
+  <anchor x="0" y="0" name="bottom_1"/>
+  <anchor x="0" y="0" name="bottom_2"/>
+  <anchor x="0" y="0" name="bottom_3"/>
+  <anchor x="0" y="0" name="bottom_4"/>
+  <anchor x="825.25" y="0" name="caret_1"/>
+  <anchor x="1650.5" y="0" name="caret_2"/>
+  <anchor x="2475.75" y="0" name="caret_3"/>
+  <anchor x="0" y="0" name="ogonek_1"/>
+  <anchor x="0" y="0" name="ogonek_2"/>
+  <anchor x="0" y="0" name="ogonek_3"/>
+  <anchor x="0" y="0" name="ogonek_4"/>
+  <anchor x="0" y="0" name="top_1"/>
+  <anchor x="0" y="0" name="top_2"/>
+  <anchor x="0" y="0" name="top_3"/>
+  <anchor x="0" y="0" name="top_4"/>
+  <outline>
+    <contour identifier="ID0x7fc3a5691860">
+      <point x="266" y="740" type="move"/>
+      <point x="654" y="740" type="line" smooth="yes"/>
+      <point x="760" y="740"/>
+      <point x="821" y="778"/>
+      <point x="812" y="899" type="curve" smooth="yes"/>
+      <point x="803" y="1021"/>
+      <point x="697" y="1156"/>
+      <point x="521" y="1156" type="curve" smooth="yes"/>
+      <point x="333" y="1156"/>
+      <point x="236" y="1026"/>
+      <point x="215" y="922" type="curve" smooth="yes"/>
+      <point x="198" y="836"/>
+      <point x="258" y="791"/>
+      <point x="258" y="737" type="curve" smooth="yes"/>
+      <point x="258" y="687"/>
+      <point x="198" y="647"/>
+      <point x="211" y="546" type="curve" smooth="yes"/>
+      <point x="234" y="361"/>
+      <point x="360" y="260"/>
+      <point x="510" y="260" type="curve" smooth="yes"/>
+      <point x="653" y="260"/>
+      <point x="746" y="348"/>
+      <point x="837" y="422" type="curve" smooth="yes"/>
+      <point x="902" y="474"/>
+      <point x="976" y="519"/>
+      <point x="1056" y="519" type="curve" smooth="yes"/>
+      <point x="1179" y="519" type="line"/>
+    </contour>
+    <component base="t_t_e" xOffset="996" yOffset="-250"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-19 16:15:28 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>e+2</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

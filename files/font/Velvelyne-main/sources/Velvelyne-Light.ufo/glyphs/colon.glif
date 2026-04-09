@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="372"/>
+  <unicode hex="003A"/>
+  <note>
+colon
+</note>
+  <outline>
+    <component base="dotaccentcomb" xOffset="42" yOffset="-957"/>
+    <component base="dotaccentcomb" xOffset="57" yOffset="-519"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:50:14 +0000</string>
+    </dict>
+  </lib>
+</glyph>

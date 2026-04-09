@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
+  <advance width="550"/>
+  <unicode hex="0301"/>
+  <anchor x="-460" y="1005" name="_top"/>
+  <anchor x="-460" y="1329" name="top"/>
+  <outline>
+    <component base="gravecomb" xScale="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:09:54 +0000</string>
+    </dict>
+  </lib>
+</glyph>

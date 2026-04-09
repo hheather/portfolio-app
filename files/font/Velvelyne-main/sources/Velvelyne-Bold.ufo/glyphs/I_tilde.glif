@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Itilde" format="2">
+  <advance width="580"/>
+  <unicode hex="0128"/>
+  <note>
+Itilde
+</note>
+  <outline>
+    <component base="I"/>
+    <component base="tildecomb.case" xOffset="-227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:24:39 +0000</string>
+    </dict>
+  </lib>
+</glyph>

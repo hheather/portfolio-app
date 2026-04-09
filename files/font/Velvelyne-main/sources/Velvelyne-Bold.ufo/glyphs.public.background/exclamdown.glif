@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown" format="2">
+  <advance width="536"/>
+  <unicode hex="00A1"/>
+  <note>
+exclamdown
+</note>
+  <outline>
+    <contour>
+      <point x="272" y="670" type="move"/>
+      <point x="272" y="-117" type="line"/>
+    </contour>
+    <component base="dotaccentcomb" yScale="-1" xOffset="2" yOffset="2388"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 13:59:48 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>exclam</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>exclam</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f" format="2">
+  <advance width="601"/>
+  <unicode hex="0066"/>
+  <note>
+f
+</note>
+  <anchor x="301" y="0" name="bottom"/>
+  <anchor x="301" y="1371" name="top"/>
+  <outline>
+    <contour>
+      <point x="456" y="1371" type="move"/>
+      <point x="297" y="1371"/>
+      <point x="279" y="1270"/>
+      <point x="279" y="1061" type="curve" smooth="yes"/>
+      <point x="279" y="25" type="line"/>
+    </contour>
+    <contour>
+      <point x="145" y="991" type="move"/>
+      <point x="455" y="994" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-28 10:52:50 +0000</string>
+    </dict>
+  </lib>
+</glyph>

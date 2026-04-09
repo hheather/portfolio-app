@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numero" format="2">
+  <advance width="1999"/>
+  <unicode hex="2116"/>
+  <note>
+afii61352
+</note>
+  <anchor x="1669" y="0" name="bottom"/>
+  <anchor x="1669" y="503" name="center"/>
+  <anchor x="2045" y="10" name="ogonek"/>
+  <anchor x="1669" y="1005" name="top"/>
+  <anchor x="2119" y="1005" name="topright"/>
+  <outline>
+    <contour identifier="ID0x1327709d0">
+      <point x="1578" y="357" type="curve" smooth="yes"/>
+      <point x="1715" y="357"/>
+      <point x="1779" y="490"/>
+      <point x="1779" y="676" type="curve" smooth="yes"/>
+      <point x="1779" y="879"/>
+      <point x="1698" y="994"/>
+      <point x="1578" y="994" type="curve" smooth="yes"/>
+      <point x="1457" y="994"/>
+      <point x="1370" y="879"/>
+      <point x="1370" y="676" type="curve" smooth="yes"/>
+      <point x="1370" y="499"/>
+      <point x="1426" y="357"/>
+    </contour>
+    <contour>
+      <point x="1401" y="74" type="move"/>
+      <point x="1748" y="74" type="line"/>
+    </contour>
+    <component base="N" xOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 14:29:15 +0000</string>
+    </dict>
+  </lib>
+</glyph>

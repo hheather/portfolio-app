@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Scircumflex" format="2">
+  <advance width="1073"/>
+  <unicode hex="015C"/>
+  <note>
+Scircumflex
+</note>
+  <outline>
+    <component base="S"/>
+    <component base="circumflexcomb.case" xOffset="66" yOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:10:45 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>S</string>
+    </dict>
+  </lib>
+</glyph>

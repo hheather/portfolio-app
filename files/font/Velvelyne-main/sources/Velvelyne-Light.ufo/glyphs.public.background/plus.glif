@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus" format="2">
+  <advance width="947"/>
+  <unicode hex="002B"/>
+  <note>
+plus
+</note>
+  <outline>
+    <contour>
+      <point x="822" y="674" type="move"/>
+      <point x="564" y="674" type="line" smooth="yes"/>
+      <point x="473" y="674"/>
+      <point x="448" y="653"/>
+      <point x="448" y="552" type="curve" smooth="yes"/>
+      <point x="448" y="220" type="line"/>
+    </contour>
+    <contour>
+      <point x="489" y="1097" type="move"/>
+      <point x="489" y="755" type="line" smooth="yes"/>
+      <point x="489" y="670"/>
+      <point x="460" y="645"/>
+      <point x="362" y="645" type="curve" smooth="yes"/>
+      <point x="125" y="645" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-06-27 13:03:50 +0000</string>
+    </dict>
+  </lib>
+</glyph>

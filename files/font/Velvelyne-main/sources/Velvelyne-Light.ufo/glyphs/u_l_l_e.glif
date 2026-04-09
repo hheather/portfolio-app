@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u_l_l_e" format="2">
+  <advance width="2224"/>
+  <unicode hex="F5170"/>
+  <outline>
+    <contour identifier="ID0x7fc3a56a31e0">
+      <point x="682" y="214" type="move"/>
+      <point x="585" y="146"/>
+      <point x="534" y="30"/>
+      <point x="393" y="30" type="curve" smooth="yes"/>
+      <point x="207" y="30"/>
+      <point x="185" y="190"/>
+      <point x="185" y="425" type="curve" smooth="yes"/>
+      <point x="185" y="972" type="line"/>
+    </contour>
+    <contour identifier="ID0x7fc3a56a32f0">
+      <point x="1143" y="1375" type="move"/>
+      <point x="1143" y="192" type="line" smooth="yes"/>
+      <point x="1143" y="96"/>
+      <point x="1125" y="18"/>
+      <point x="1081" y="-33" type="curve" smooth="yes"/>
+      <point x="1044" y="-75"/>
+      <point x="991" y="-99"/>
+      <point x="915" y="-99" type="curve" smooth="yes"/>
+      <point x="840" y="-99"/>
+      <point x="786" y="-74"/>
+      <point x="751" y="-30" type="curve" smooth="yes"/>
+      <point x="711" y="20"/>
+      <point x="693" y="93"/>
+      <point x="693" y="180" type="curve" smooth="yes"/>
+      <point x="693" y="245"/>
+      <point x="708" y="298"/>
+      <point x="721" y="361" type="curve" smooth="yes"/>
+      <point x="732" y="410"/>
+      <point x="741" y="466"/>
+      <point x="741" y="540" type="curve" smooth="yes"/>
+      <point x="741" y="972" type="line"/>
+    </contour>
+    <component base="l_e" xOffset="1294"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-14 09:47:51 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

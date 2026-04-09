@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="amacron" format="2">
+  <advance width="956"/>
+  <unicode hex="0101"/>
+  <note>
+amacron
+</note>
+  <outline>
+    <component base="a"/>
+    <component base="macroncomb" xOffset="64" yOffset="3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-20 13:02:47 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>a</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>a</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="S_L" format="2">
+  <advance width="997"/>
+  <outline>
+    <contour identifier="ID0x16216c730">
+      <point x="575" y="1042" type="move"/>
+      <point x="531" y="1140"/>
+      <point x="416" y="1225"/>
+      <point x="264" y="1225" type="curve" smooth="yes"/>
+      <point x="126" y="1225"/>
+      <point x="-30" y="1140"/>
+      <point x="-30" y="979" type="curve" smooth="yes"/>
+      <point x="-30" y="855"/>
+      <point x="61" y="780"/>
+      <point x="172" y="727" type="curve" smooth="yes"/>
+      <point x="250" y="690"/>
+      <point x="290" y="618"/>
+      <point x="290" y="502" type="curve" smooth="yes"/>
+      <point x="290" y="300" type="line" smooth="yes"/>
+      <point x="290" y="166"/>
+      <point x="339" y="100"/>
+      <point x="458" y="100" type="curve" smooth="yes"/>
+      <point x="817" y="100" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-12 23:37:47 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>L</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

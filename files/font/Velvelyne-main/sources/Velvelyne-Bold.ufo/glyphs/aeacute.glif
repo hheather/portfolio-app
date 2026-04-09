@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aeacute" format="2">
+  <advance width="1524"/>
+  <unicode hex="01FD"/>
+  <note>
+aeacute
+</note>
+  <outline>
+    <component base="ae"/>
+    <component base="acutecomb" xOffset="1112" yOffset="-41"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-12 23:49:08 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>a</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+    </dict>
+  </lib>
+</glyph>

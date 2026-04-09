@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesingle" format="2">
+  <advance width="392"/>
+  <unicode hex="0027"/>
+  <note>
+quotesingle
+</note>
+  <outline>
+    <component base="_virgule" xOffset="-70" yOffset="1205" identifier="F3FCAB3E"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-06-14 13:22:04 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>F3FCAB3E</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

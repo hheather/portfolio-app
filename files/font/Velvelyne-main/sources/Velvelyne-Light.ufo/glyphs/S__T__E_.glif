@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="S_T_E" format="2">
+  <advance width="3052"/>
+  <unicode hex="F46D0"/>
+  <anchor x="-20" y="0" name="bottom_1"/>
+  <anchor x="-20" y="0" name="bottom_2"/>
+  <anchor x="-20" y="0" name="bottom_3"/>
+  <anchor x="1004" y="0" name="caret_1"/>
+  <anchor x="2027" y="0" name="caret_2"/>
+  <anchor x="-20" y="0" name="top_1"/>
+  <anchor x="-20" y="0" name="top_2"/>
+  <anchor x="-20" y="0" name="top_3"/>
+  <outline>
+    <contour identifier="ID0x2a8611cd0">
+      <point x="145" y="257" type="move"/>
+      <point x="194" y="127"/>
+      <point x="364" y="23"/>
+      <point x="543" y="23" type="curve" smooth="yes"/>
+      <point x="777" y="23"/>
+      <point x="920" y="153"/>
+      <point x="920" y="333" type="curve" smooth="yes"/>
+      <point x="920" y="562"/>
+      <point x="709" y="645"/>
+      <point x="512" y="711" type="curve" smooth="yes"/>
+      <point x="339" y="768"/>
+      <point x="177" y="837"/>
+      <point x="177" y="1043" type="curve" smooth="yes"/>
+      <point x="177" y="1224"/>
+      <point x="331" y="1321"/>
+      <point x="525" y="1321" type="curve" smooth="yes"/>
+      <point x="673" y="1321"/>
+      <point x="753" y="1252"/>
+      <point x="837" y="1187" type="curve" smooth="yes"/>
+      <point x="913" y="1127"/>
+      <point x="992" y="1069"/>
+      <point x="1128" y="1069" type="curve" smooth="yes"/>
+      <point x="1267" y="1069" type="line" smooth="yes"/>
+      <point x="1352" y="1069"/>
+      <point x="1387" y="1045"/>
+      <point x="1418" y="1018" type="curve" smooth="yes"/>
+      <point x="1450" y="990"/>
+      <point x="1476" y="960"/>
+      <point x="1518" y="961" type="curve" smooth="yes"/>
+      <point x="1560" y="961"/>
+      <point x="1591" y="988"/>
+      <point x="1626" y="1014" type="curve" smooth="yes"/>
+      <point x="1662" y="1042"/>
+      <point x="1701" y="1070"/>
+      <point x="1760" y="1070" type="curve" smooth="yes"/>
+      <point x="2053" y="1070" type="line"/>
+    </contour>
+    <contour identifier="ID0x7f88ab106b30">
+      <point x="1518" y="952" type="move"/>
+      <point x="1518" y="-109" type="line"/>
+    </contour>
+    <contour identifier="ID0x7f88ab8f60b0">
+      <point x="2869" y="1304" type="move"/>
+      <point x="2231" y="1322" type="line" smooth="yes"/>
+      <point x="2178" y="1323"/>
+      <point x="2153" y="1298"/>
+      <point x="2153" y="1232" type="curve" smooth="yes"/>
+      <point x="2153" y="1194"/>
+      <point x="2139" y="1169"/>
+      <point x="2122" y="1150" type="curve" smooth="yes"/>
+      <point x="2097" y="1122"/>
+      <point x="2065" y="1104"/>
+      <point x="2065" y="1068" type="curve" smooth="yes"/>
+      <point x="2065" y="1045"/>
+      <point x="2085" y="1026"/>
+      <point x="2107" y="1009" type="curve" smooth="yes"/>
+      <point x="2129" y="992"/>
+      <point x="2156" y="976"/>
+      <point x="2170" y="948" type="curve" smooth="yes"/>
+      <point x="2185" y="916"/>
+      <point x="2184" y="858"/>
+      <point x="2206" y="820" type="curve" smooth="yes"/>
+      <point x="2230" y="779"/>
+      <point x="2265" y="751"/>
+      <point x="2265" y="715" type="curve" smooth="yes"/>
+      <point x="2265" y="679"/>
+      <point x="2234" y="655"/>
+      <point x="2206" y="620" type="curve" smooth="yes"/>
+      <point x="2180" y="586"/>
+      <point x="2155" y="544"/>
+      <point x="2155" y="475" type="curve" smooth="yes"/>
+      <point x="2156" y="161" type="line" smooth="yes"/>
+      <point x="2156" y="100"/>
+      <point x="2179" y="67"/>
+      <point x="2235" y="67" type="curve" smooth="yes"/>
+      <point x="2911" y="71" type="line"/>
+    </contour>
+    <contour>
+      <point x="2269" y="695" type="move"/>
+      <point x="2805" y="709" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-20 13:13:52 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

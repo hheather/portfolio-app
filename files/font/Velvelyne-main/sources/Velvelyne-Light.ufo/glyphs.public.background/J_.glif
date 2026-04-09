@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J" format="2">
+  <advance width="829"/>
+  <unicode hex="004A"/>
+  <note>
+J
+</note>
+  <anchor x="415" y="0" name="bottom"/>
+  <anchor x="545" y="1292" name="top"/>
+  <outline>
+    <contour>
+      <point x="370" y="1203" type="move"/>
+      <point x="410" y="1251"/>
+      <point x="487" y="1288"/>
+      <point x="545" y="1288" type="curve" smooth="yes"/>
+      <point x="600" y="1288"/>
+      <point x="624" y="1244"/>
+      <point x="624" y="1185" type="curve" smooth="yes"/>
+      <point x="624" y="483" type="line" smooth="yes"/>
+      <point x="624" y="209"/>
+      <point x="557" y="14"/>
+      <point x="368" y="14" type="curve" smooth="yes"/>
+      <point x="181" y="14"/>
+      <point x="137" y="161"/>
+      <point x="135" y="248" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 15:04:21 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>N</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequal" format="2">
+  <advance width="1352"/>
+  <unicode hex="2265"/>
+  <note>
+greaterequal
+</note>
+  <outline>
+    <contour>
+      <point x="218" y="1106" type="move"/>
+      <point x="1005" y="788" type="line" smooth="yes"/>
+      <point x="1100" y="750"/>
+      <point x="1097" y="661"/>
+      <point x="1010" y="628" type="curve" smooth="yes"/>
+      <point x="222" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="1152" y="701" type="move"/>
+      <point x="1088" y="701" type="line"/>
+    </contour>
+    <contour>
+      <point x="1079" y="49" type="move"/>
+      <point x="200" y="49" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-06-27 13:09:39 +0000</string>
+    </dict>
+  </lib>
+</glyph>

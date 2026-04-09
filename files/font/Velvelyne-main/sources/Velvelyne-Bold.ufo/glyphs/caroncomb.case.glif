@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb.case" format="2">
+  <advance width="1315"/>
+  <anchor x="619" y="1300" name="_top"/>
+  <anchor x="619" y="1658" name="top"/>
+  <outline>
+    <component base="circumflexcomb.case" yScale="-1" xOffset="127" yOffset="2882" identifier="A2AA856A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-09-23 13:30:15 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>A2AA856A</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="410"/>
+  <unicode hex="006C"/>
+  <note>
+l
+</note>
+  <anchor x="253" y="0" name="bottom"/>
+  <anchor x="205" y="503" name="center"/>
+  <anchor x="205" y="1371" name="top"/>
+  <anchor x="380" y="1371" name="topright"/>
+  <outline>
+    <contour>
+      <point x="205" y="1346" type="move"/>
+      <point x="205" y="12" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-14 17:50:01 +0000</string>
+    </dict>
+  </lib>
+</glyph>

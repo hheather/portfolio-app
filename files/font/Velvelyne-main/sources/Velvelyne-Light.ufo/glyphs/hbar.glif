@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar" format="2">
+  <advance width="1032"/>
+  <unicode hex="0127"/>
+  <note>
+hbar
+</note>
+  <outline>
+    <component base="macroncomb" xOffset="-18" yOffset="-41"/>
+    <component base="h" xOffset="85" identifier="A539726F"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-28 10:54:08 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>h</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>A539726F</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

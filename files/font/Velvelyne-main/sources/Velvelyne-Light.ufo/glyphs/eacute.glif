@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eacute" format="2">
+  <advance width="884"/>
+  <unicode hex="00E9"/>
+  <note>
+eacute
+</note>
+  <outline>
+    <component base="e"/>
+    <component base="acutecomb" xOffset="902" yOffset="6" identifier="DFBF8061"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:50:51 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>DFBF8061</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -52,6 +52,7 @@
     link.addEventListener('click', () => switchView(link.dataset.view));
   });
 
+
   // ----------------------------------------------------------
   // PROJECT THUMBNAILS: click to switch to projects view + scroll
   // ----------------------------------------------------------

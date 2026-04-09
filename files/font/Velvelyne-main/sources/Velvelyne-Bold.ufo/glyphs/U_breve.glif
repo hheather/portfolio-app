@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ubreve" format="2">
+  <advance width="1249"/>
+  <unicode hex="016C"/>
+  <note>
+Ubreve
+</note>
+  <guideline x="485" y="1310" angle="0"/>
+  <guideline x="641" y="1645" angle="0"/>
+  <outline>
+    <component base="U"/>
+    <component base="brevecomb.case" xOffset="146" yOffset="140" identifier="3CB4E798"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-10 15:56:31 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>U</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>3CB4E798</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

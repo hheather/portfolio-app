@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="edotaccent" format="2">
+  <advance width="884"/>
+  <unicode hex="0117"/>
+  <note>
+edotaccent
+</note>
+  <guideline x="299" y="-67" angle="0"/>
+  <guideline x="204" y="1212" angle="0"/>
+  <outline>
+    <component base="e"/>
+    <component base="dotaccentcomb" xOffset="313"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 14:50:51 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e</string>
+    </dict>
+  </lib>
+</glyph>

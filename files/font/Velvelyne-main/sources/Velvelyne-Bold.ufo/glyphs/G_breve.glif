@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gbreve" format="2">
+  <advance width="1343"/>
+  <unicode hex="011E"/>
+  <note>
+Gbreve
+</note>
+  <outline>
+    <component base="G"/>
+    <component base="brevecomb.case" xOffset="193" yOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-10-11 15:00:18 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>G</string>
+    </dict>
+  </lib>
+</glyph>

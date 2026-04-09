@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowleft" format="2">
+  <advance width="1402"/>
+  <unicode hex="2190"/>
+  <note>
+arrowleft
+</note>
+  <outline>
+    <component base="_arrowfull" xScale="0" xyScale="1" yScale="0" yxScale="-1" xOffset="1294" yOffset="27" identifier="B3C28F5B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-06 11:04:42 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>B3C28F5B</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

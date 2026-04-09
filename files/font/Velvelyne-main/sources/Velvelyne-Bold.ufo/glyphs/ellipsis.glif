@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ellipsis" format="2">
+  <advance width="1136"/>
+  <unicode hex="2026"/>
+  <note>
+ellipsis
+</note>
+  <anchor x="567" y="190" name="top"/>
+  <outline>
+    <contour identifier="ID0x10650e430">
+      <point x="186" y="118" type="move"/>
+      <point x="170" y="74" type="line"/>
+    </contour>
+    <contour identifier="ID0x106529120">
+      <point x="586" y="118" type="move"/>
+      <point x="570" y="74" type="line"/>
+    </contour>
+    <contour identifier="ID0x106508860">
+      <point x="986" y="118" type="move"/>
+      <point x="970" y="74" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-10 14:22:48 +0000</string>
+    </dict>
+  </lib>
+</glyph>

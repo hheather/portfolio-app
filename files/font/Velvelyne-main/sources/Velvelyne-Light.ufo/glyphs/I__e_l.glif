@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I_e_l" format="2">
+  <advance width="1784"/>
+  <anchor x="294" y="0" name="bottom_1"/>
+  <anchor x="882" y="0" name="bottom_2"/>
+  <anchor x="1470" y="0" name="bottom_3"/>
+  <anchor x="588" y="0" name="caret_1"/>
+  <anchor x="1176" y="0" name="caret_2"/>
+  <anchor x="294" y="10" name="ogonek_1"/>
+  <anchor x="882" y="10" name="ogonek_2"/>
+  <anchor x="1470" y="10" name="ogonek_3"/>
+  <anchor x="294" y="1292" name="top_1"/>
+  <anchor x="882" y="1292" name="top_2"/>
+  <anchor x="1470" y="1292" name="top_3"/>
+  <anchor x="20" y="1292" name="topleft_1"/>
+  <anchor x="20" y="1292" name="topleft_2"/>
+  <anchor x="20" y="1292" name="topleft_3"/>
+  <outline>
+    <component base="I"/>
+    <component base="e" xOffset="490"/>
+    <component base="l" xOffset="1374"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-03-14 09:14:48 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

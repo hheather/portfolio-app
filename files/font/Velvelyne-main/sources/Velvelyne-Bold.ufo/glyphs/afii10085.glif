@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10085" format="2">
+  <advance width="975"/>
+  <unicode hex="0443"/>
+  <note>
+afii10085
+</note>
+  <anchor x="420" y="1005" name="top"/>
+  <outline>
+    <component base="y"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-01-10 14:04:34 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
