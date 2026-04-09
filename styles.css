@@ -275,6 +275,36 @@ body {
   scroll-snap-stop: always;
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-hint-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.scroll-hint-arrow {
+  font-size: 1rem;
+  color: var(--muted);
+  animation: bounce 1.8s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0);    opacity: 0.4; }
+  50%       { transform: translateY(6px); opacity: 1;   }
 }
 
 .landing-grid {
@@ -423,37 +453,6 @@ body {
 }
 
 /* Scroll hint */
-.scroll-hint {
-  position: absolute;
-  right: 36px;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  color: var(--muted);
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  animation: fadeInRight 1s ease 1.2s both;
-}
-
-.scroll-arrow {
-  font-family: var(--font-mono);
-  font-size: 1rem;
-  color: var(--muted);
-  line-height: 1;
-  animation: scrollPulse 2s ease infinite;
-}
-
-.scroll-arrow::before {
-  content: "→";
-  white-space: pre;
-  text-align: center;
-  display: block;
-}
 
 @keyframes scrollPulse {
   0%, 100% { opacity: 0.3; transform: scaleX(1); }
